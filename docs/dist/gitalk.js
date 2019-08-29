@@ -12177,12 +12177,16 @@ __webpack_require__.r(__webpack_exports__);
   var className = _ref.className,
       text = _ref.text,
       name = _ref.name;
+
+  var _require = __webpack_require__("./src/assets/icon sync recursive ./!./!./node_modules/raw-loader/dist/cjs.js!./ ^\\.\\/.*\\.svg$")("./".concat(name, ".svg")),
+      svg = _require.default;
+
   return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
     className: "gt-ico ".concat(className)
   }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
     className: "gt-svg",
     dangerouslySetInnerHTML: {
-      __html: __webpack_require__("./src/assets/icon sync recursive ./!./!./node_modules/raw-loader/dist/cjs.js!./ ^\\.\\/.*\\.svg$")("./".concat(name, ".svg"))
+      __html: svg
     }
   }), text && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
     className: "gt-ico-text"
