@@ -6,18 +6,18 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const ENV = process.env.NODE_ENV || 'development'
 const isDev = ENV !== 'production'
 
-function buildCss(use) {
+function buildCss (use) {
   if (!isDev) {
-      return [
-          MiniCssExtractPlugin.loader,
-          ...use
-      ]
+    return [
+      MiniCssExtractPlugin.loader,
+      ...use
+    ]
   }
   return [
-      {
-          loader: "style-loader"
-      },
-      ...use
+    {
+      loader: 'style-loader'
+    },
+    ...use
   ]
 }
 

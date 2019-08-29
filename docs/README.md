@@ -205,15 +205,15 @@ A **GitHub Application** is needed for authorization, if you don't have one, [Cl
 
 MIT
 
-[npm-version-image]: https://img.shields.io/npm/v/gitalk.svg?style=flat-square
-[npm-version-url]: https://www.npmjs.com/package/gitalk
+[npm-version-image]: https://img.shields.io/npm/v/@zeromake%2Fgitalk.svg?style=flat-square
+[npm-version-url]: https://www.npmjs.com/package/@zeromake%2Fgitalk
 [cdnjs-version-image]: https://img.shields.io/cdnjs/v/gitalk.svg?style=flat-square
 [cdnjs-version-url]: https://cdnjs.com/libraries/gitalk
-[david-dm-image]: https://david-dm.org/gitalk/gitalk.svg?style=flat-square
-[david-dm-url]: https://david-dm.org/gitalk/gitalk
-[travis-image]: https://img.shields.io/travis/gitalk/gitalk/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/gitalk/gitalk
+[david-dm-image]: https://david-dm.org/zeromake/gitalk.svg?style=flat-square
+[david-dm-url]: https://david-dm.org/zeromake/gitalk
+[travis-image]: https://img.shields.io/travis/zeromake/gitalk/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/zeromake/gitalk
 [coveralls-image]: https://img.shields.io/coveralls/gitalk/gitalk/master.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/github/gitalk/gitalk
+[coveralls-url]: https://coveralls.io/github/zeromake/gitalk
 [gzip-size]: https://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
 [gzip-url]: https://unpkg.com/gitalk/dist/gitalk.min.js
