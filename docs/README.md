@@ -214,5 +214,5 @@ MIT
 [travis-url]: https://travis-ci.org/gitalk/gitalk
 [coveralls-image]: https://img.shields.io/coveralls/gitalk/gitalk/master.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/github/gitalk/gitalk
-[gzip-size]: http://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
+[gzip-size]: https://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
 [gzip-url]: https://unpkg.com/gitalk/dist/gitalk.min.js
