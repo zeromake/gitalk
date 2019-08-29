@@ -21,7 +21,7 @@
     function render() {
       const hashRegExp = /#(.*?)([?]|$)/;
       const id = location.hash.match(hashRegExp)[1];
-      const gitalk = new Gitalk.default({
+      const gitalk = new Gitalk({
         owner: 'zeromake',
         repo: 'gitalk',
         clientID: '90eb33affa9fe6184a79',

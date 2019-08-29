@@ -1,7 +1,12 @@
 {
   "sourceMaps": true,
   "presets": [
-    "@babel/preset-env",
+    [
+      "@babel/env",
+      {
+        "modules": "umd"
+      }
+    ],
     "@babel/preset-react"
   ],
   "plugins": [
@@ -18,6 +23,7 @@
     "@babel/plugin-proposal-function-sent",
     "@babel/plugin-proposal-export-namespace-from",
     "@babel/plugin-proposal-numeric-separator",
-    "@babel/plugin-proposal-throw-expressions"
+    "@babel/plugin-proposal-throw-expressions",
+    "babel-plugin-add-module-exports"
   ]
 }

@@ -11903,23 +11903,41 @@ webpackContext.id = "./src/assets/icon sync recursive ./!./!./node_modules/raw-l
 /*!**********************************!*\
   !*** ./src/component/action.jsx ***!
   \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react) {
+  "use strict";
 
-/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var className = _ref.className,
-      onClick = _ref.onClick,
-      text = _ref.text;
-  return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-    className: "gt-action ".concat(className),
-    onClick: onClick
-  }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-action-text"
-  }, text));
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireDefault(_react);
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  var _default = function _default(_ref) {
+    var className = _ref.className,
+        onClick = _ref.onClick,
+        text = _ref.text;
+    return _react.default.createElement("a", {
+      className: "gt-action ".concat(className),
+      onClick: onClick
+    }, _react.default.createElement("span", {
+      className: "gt-action-text"
+    }, text));
+  };
+
+  _exports.default = _default;
+  module.exports = exports.default;
 });
 
 /***/ }),
@@ -11928,23 +11946,41 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************!*\
   !*** ./src/component/avatar.jsx ***!
   \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react) {
+  "use strict";
 
-/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var src = _ref.src,
-      className = _ref.className,
-      alt = _ref.alt;
-  return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-    className: "gt-avatar ".concat(className)
-  }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("img", {
-    src: src,
-    alt: "@".concat(alt)
-  }));
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireDefault(_react);
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  var _default = function _default(_ref) {
+    var src = _ref.src,
+        className = _ref.className,
+        alt = _ref.alt;
+    return _react.default.createElement("div", {
+      className: "gt-avatar ".concat(className)
+    }, _react.default.createElement("img", {
+      src: src,
+      alt: "@".concat(alt)
+    }));
+  };
+
+  _exports.default = _default;
+  module.exports = exports.default;
 });
 
 /***/ }),
@@ -11953,30 +11989,48 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************!*\
   !*** ./src/component/button.jsx ***!
   \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react) {
+  "use strict";
 
-/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var className = _ref.className,
-      getRef = _ref.getRef,
-      onClick = _ref.onClick,
-      onMouseDown = _ref.onMouseDown,
-      text = _ref.text,
-      isLoading = _ref.isLoading;
-  return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("button", {
-    ref: getRef,
-    className: "gt-btn ".concat(className),
-    onClick: onClick,
-    onMouseDown: onMouseDown
-  }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-btn-text"
-  }, text), isLoading && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-btn-loading gt-spinner"
-  }));
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireDefault(_react);
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  var _default = function _default(_ref) {
+    var className = _ref.className,
+        getRef = _ref.getRef,
+        onClick = _ref.onClick,
+        onMouseDown = _ref.onMouseDown,
+        text = _ref.text,
+        isLoading = _ref.isLoading;
+    return _react.default.createElement("button", {
+      ref: getRef,
+      className: "gt-btn ".concat(className),
+      onClick: onClick,
+      onMouseDown: onMouseDown
+    }, _react.default.createElement("span", {
+      className: "gt-btn-text"
+    }, text), isLoading && _react.default.createElement("span", {
+      className: "gt-btn-loading gt-spinner"
+    }));
+  };
+
+  _exports.default = _default;
+  module.exports = exports.default;
 });
 
 /***/ }),
@@ -11985,180 +12039,179 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************!*\
   !*** ./src/component/comment.jsx ***!
   \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Comment; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
-/* harmony import */ var _avatar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./avatar */ "./src/component/avatar.jsx");
-/* harmony import */ var _svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./svg */ "./src/component/svg.jsx");
-/* harmony import */ var date_fns_formatDistanceToNow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! date-fns/formatDistanceToNow */ "./node_modules/date-fns/esm/formatDistanceToNow/index.js");
-/* harmony import */ var date_fns_locale_zh_CN_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! date-fns/locale/zh-CN/_lib/formatDistance/index */ "./node_modules/date-fns/locale/zh-CN/_lib/formatDistance/index.js");
-/* harmony import */ var date_fns_locale_zh_CN_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_zh_CN_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var date_fns_locale_zh_TW_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! date-fns/locale/zh-TW/_lib/formatDistance/index */ "./node_modules/date-fns/locale/zh-TW/_lib/formatDistance/index.js");
-/* harmony import */ var date_fns_locale_zh_TW_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_zh_TW_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var date_fns_locale_es_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! date-fns/locale/es/_lib/formatDistance/index */ "./node_modules/date-fns/locale/es/_lib/formatDistance/index.js");
-/* harmony import */ var date_fns_locale_es_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_es_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var date_fns_locale_fr_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! date-fns/locale/fr/_lib/formatDistance/index */ "./node_modules/date-fns/locale/fr/_lib/formatDistance/index.js");
-/* harmony import */ var date_fns_locale_fr_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_fr_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var date_fns_locale_ru_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! date-fns/locale/ru/_lib/formatDistance/index */ "./node_modules/date-fns/locale/ru/_lib/formatDistance/index.js");
-/* harmony import */ var date_fns_locale_ru_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_ru_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var date_fns_parseISO_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! date-fns/parseISO/index */ "./node_modules/date-fns/parseISO/index.js");
-/* harmony import */ var date_fns_parseISO_index__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(date_fns_parseISO_index__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var github_markdown_css_github_markdown_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! github-markdown-css/github-markdown.css */ "./node_modules/github-markdown-css/github-markdown.css");
-/* harmony import */ var github_markdown_css_github_markdown_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(github_markdown_css_github_markdown_css__WEBPACK_IMPORTED_MODULE_10__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js"), __webpack_require__(/*! ./avatar */ "./src/component/avatar.jsx"), __webpack_require__(/*! ./svg */ "./src/component/svg.jsx"), __webpack_require__(/*! date-fns/formatDistanceToNow */ "./node_modules/date-fns/esm/formatDistanceToNow/index.js"), __webpack_require__(/*! date-fns/locale/zh-CN/_lib/formatDistance/index */ "./node_modules/date-fns/locale/zh-CN/_lib/formatDistance/index.js"), __webpack_require__(/*! date-fns/locale/zh-TW/_lib/formatDistance/index */ "./node_modules/date-fns/locale/zh-TW/_lib/formatDistance/index.js"), __webpack_require__(/*! date-fns/locale/es/_lib/formatDistance/index */ "./node_modules/date-fns/locale/es/_lib/formatDistance/index.js"), __webpack_require__(/*! date-fns/locale/fr/_lib/formatDistance/index */ "./node_modules/date-fns/locale/fr/_lib/formatDistance/index.js"), __webpack_require__(/*! date-fns/locale/ru/_lib/formatDistance/index */ "./node_modules/date-fns/locale/ru/_lib/formatDistance/index.js"), __webpack_require__(/*! date-fns/parseISO/index */ "./node_modules/date-fns/parseISO/index.js"), __webpack_require__(/*! github-markdown-css/github-markdown.css */ "./node_modules/github-markdown-css/github-markdown.css")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react, _avatar, _svg, _formatDistanceToNow, _index, _index2, _index3, _index4, _index5, _index6, _githubMarkdown) {
+  "use strict";
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireWildcard(_react);
+  _avatar = _interopRequireDefault(_avatar);
+  _svg = _interopRequireDefault(_svg);
+  _formatDistanceToNow = _interopRequireDefault(_formatDistanceToNow);
+  _index = _interopRequireDefault(_index);
+  _index2 = _interopRequireDefault(_index2);
+  _index3 = _interopRequireDefault(_index3);
+  _index4 = _interopRequireDefault(_index4);
+  _index5 = _interopRequireDefault(_index5);
+  _index6 = _interopRequireDefault(_index6);
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+  function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+  function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
+  function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
+  function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+  function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
+  function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-
-
-
-
-
-
- // const ZHCN = buildDistanceInWordsLocaleZHCN()
-// const ZHTW = buildDistanceInWordsLocaleZHTW()
-// const ES = buildDistanceInWordsLocaleES()
-// const FR = buildDistanceInWordsLocaleFR()
-// const RU = buildDistanceInWordsLocaleRU()
-
-if (typeof window !== "undefined") {
-  window.GT_i18n_distanceInWordsLocaleMap = {
-    zh: date_fns_locale_zh_CN_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_4___default.a,
-    'zh-CN': date_fns_locale_zh_CN_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_4___default.a,
-    'zh-TW': date_fns_locale_zh_TW_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_5___default.a,
-    'es-ES': date_fns_locale_es_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_6___default.a,
-    fr: date_fns_locale_fr_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_7___default.a,
-    ru: date_fns_locale_ru_lib_formatDistance_index__WEBPACK_IMPORTED_MODULE_8___default.a
-  };
-}
-
-var Comment =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Comment, _Component);
-
-  function Comment() {
-    _classCallCheck(this, Comment);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Comment).apply(this, arguments));
+  // const ZHCN = buildDistanceInWordsLocaleZHCN()
+  // const ZHTW = buildDistanceInWordsLocaleZHTW()
+  // const ES = buildDistanceInWordsLocaleES()
+  // const FR = buildDistanceInWordsLocaleFR()
+  // const RU = buildDistanceInWordsLocaleRU()
+  if (typeof window !== "undefined") {
+    window.GT_i18n_distanceInWordsLocaleMap = {
+      zh: _index.default,
+      'zh-CN': _index.default,
+      'zh-TW': _index2.default,
+      'es-ES': _index3.default,
+      fr: _index4.default,
+      ru: _index5.default
+    };
   }
 
-  _createClass(Comment, [{
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          comment = _this$props.comment,
-          user = _this$props.user,
-          language = _this$props.language,
-          _this$props$commented = _this$props.commentedText,
-          commentedText = _this$props$commented === void 0 ? '' : _this$props$commented,
-          _this$props$admin = _this$props.admin,
-          admin = _this$props$admin === void 0 ? [] : _this$props$admin,
-          replyCallback = _this$props.replyCallback,
-          likeCallback = _this$props.likeCallback;
-      var enableEdit = user && comment.user.login === user.login;
-      var isAdmin = ~[].concat(admin).map(function (a) {
-        return a.toLowerCase();
-      }).indexOf(comment.user.login.toLowerCase());
-      var reactions = comment.reactions;
-      var reactionTotalCount = '';
+  var Comment =
+  /*#__PURE__*/
+  function (_Component) {
+    _inherits(Comment, _Component);
 
-      if (reactions && reactions.totalCount) {
-        reactionTotalCount = reactions.totalCount;
+    function Comment() {
+      _classCallCheck(this, Comment);
 
-        if (reactions.totalCount === 100 && reactions.pageInfo && reactions.pageInfo.hasNextPage) {
-          reactionTotalCount = '100+';
-        }
-      }
-
-      var LocaleMap = window.GT_i18n_distanceInWordsLocaleMap;
-      var formatDistance = language && LocaleMap && LocaleMap[language];
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comment ".concat(isAdmin ? 'gt-comment-admin' : '')
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_avatar__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "gt-comment-avatar",
-        src: comment.user && comment.user.avatar_url,
-        alt: comment.user && comment.user.login
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comment-content"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comment-header"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comment-block-".concat(user ? '2' : '1')
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-comment-username",
-        href: comment.user && comment.user.html_url
-      }, comment.user && comment.user.login), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-comment-text"
-      }, commentedText), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-comment-date"
-      }, Object(date_fns_formatDistanceToNow__WEBPACK_IMPORTED_MODULE_3__["default"])(date_fns_parseISO_index__WEBPACK_IMPORTED_MODULE_9___default()(comment.created_at), {
-        addSuffix: true,
-        locale: formatDistance ? {
-          formatDistance: formatDistance
-        } : null
-      })), reactions && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-comment-like",
-        title: "Like",
-        onClick: likeCallback
-      }, reactions.viewerHasReacted ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_svg__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        className: "gt-ico-heart",
-        name: "heart_on",
-        text: reactionTotalCount
-      }) : react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_svg__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        className: "gt-ico-heart",
-        name: "heart",
-        text: reactionTotalCount
-      })), enableEdit ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        href: comment.html_url,
-        className: "gt-comment-edit",
-        title: "Edit",
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_svg__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        className: "gt-ico-edit",
-        name: "edit"
-      })) : react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-comment-reply",
-        title: "Reply",
-        onClick: replyCallback
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_svg__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        className: "gt-ico-reply",
-        name: "reply"
-      }))), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comment-body markdown-body",
-        dangerouslySetInnerHTML: {
-          __html: comment.body_html
-        }
-      })));
+      return _possibleConstructorReturn(this, _getPrototypeOf(Comment).apply(this, arguments));
     }
-  }]);
 
-  return Comment;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+    _createClass(Comment, [{
+      key: "render",
+      value: function render() {
+        var _this$props = this.props,
+            comment = _this$props.comment,
+            user = _this$props.user,
+            language = _this$props.language,
+            _this$props$commented = _this$props.commentedText,
+            commentedText = _this$props$commented === void 0 ? '' : _this$props$commented,
+            _this$props$admin = _this$props.admin,
+            admin = _this$props$admin === void 0 ? [] : _this$props$admin,
+            replyCallback = _this$props.replyCallback,
+            likeCallback = _this$props.likeCallback;
+        var enableEdit = user && comment.user.login === user.login;
+        var isAdmin = ~[].concat(admin).map(function (a) {
+          return a.toLowerCase();
+        }).indexOf(comment.user.login.toLowerCase());
+        var reactions = comment.reactions;
+        var reactionTotalCount = '';
 
+        if (reactions && reactions.totalCount) {
+          reactionTotalCount = reactions.totalCount;
 
+          if (reactions.totalCount === 100 && reactions.pageInfo && reactions.pageInfo.hasNextPage) {
+            reactionTotalCount = '100+';
+          }
+        }
+
+        var LocaleMap = window.GT_i18n_distanceInWordsLocaleMap;
+        var formatDistance = language && LocaleMap && LocaleMap[language];
+        return _react.default.createElement("div", {
+          className: "gt-comment ".concat(isAdmin ? 'gt-comment-admin' : '')
+        }, _react.default.createElement(_avatar.default, {
+          className: "gt-comment-avatar",
+          src: comment.user && comment.user.avatar_url,
+          alt: comment.user && comment.user.login
+        }), _react.default.createElement("div", {
+          className: "gt-comment-content"
+        }, _react.default.createElement("div", {
+          className: "gt-comment-header"
+        }, _react.default.createElement("div", {
+          className: "gt-comment-block-".concat(user ? '2' : '1')
+        }), _react.default.createElement("a", {
+          className: "gt-comment-username",
+          href: comment.user && comment.user.html_url
+        }, comment.user && comment.user.login), _react.default.createElement("span", {
+          className: "gt-comment-text"
+        }, commentedText), _react.default.createElement("span", {
+          className: "gt-comment-date"
+        }, (0, _formatDistanceToNow.default)((0, _index6.default)(comment.created_at), {
+          addSuffix: true,
+          locale: formatDistance ? {
+            formatDistance: formatDistance
+          } : null
+        })), reactions && _react.default.createElement("a", {
+          className: "gt-comment-like",
+          title: "Like",
+          onClick: likeCallback
+        }, reactions.viewerHasReacted ? _react.default.createElement(_svg.default, {
+          className: "gt-ico-heart",
+          name: "heart_on",
+          text: reactionTotalCount
+        }) : _react.default.createElement(_svg.default, {
+          className: "gt-ico-heart",
+          name: "heart",
+          text: reactionTotalCount
+        })), enableEdit ? _react.default.createElement("a", {
+          href: comment.html_url,
+          className: "gt-comment-edit",
+          title: "Edit",
+          target: "_blank"
+        }, _react.default.createElement(_svg.default, {
+          className: "gt-ico-edit",
+          name: "edit"
+        })) : _react.default.createElement("a", {
+          className: "gt-comment-reply",
+          title: "Reply",
+          onClick: replyCallback
+        }, _react.default.createElement(_svg.default, {
+          className: "gt-ico-reply",
+          name: "reply"
+        }))), _react.default.createElement("div", {
+          className: "gt-comment-body markdown-body",
+          dangerouslySetInnerHTML: {
+            __html: comment.body_html
+          }
+        })));
+      }
+    }]);
+
+    return Comment;
+  }(_react.Component);
+
+  _exports.default = Comment;
+  module.exports = exports.default;
+});
 
 /***/ }),
 
@@ -12166,31 +12219,49 @@ function (_Component) {
 /*!*******************************!*\
   !*** ./src/component/svg.jsx ***!
   \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react) {
+  "use strict";
 
-/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var className = _ref.className,
-      text = _ref.text,
-      name = _ref.name;
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireDefault(_react);
 
-  var _require = __webpack_require__("./src/assets/icon sync recursive ./!./!./node_modules/raw-loader/dist/cjs.js!./ ^\\.\\/.*\\.svg$")("./".concat(name, ".svg")),
-      svg = _require.default;
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-  return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-ico ".concat(className)
-  }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-svg",
-    dangerouslySetInnerHTML: {
-      __html: svg
-    }
-  }), text && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-    className: "gt-ico-text"
-  }, text));
+  var _default = function _default(_ref) {
+    var className = _ref.className,
+        text = _ref.text,
+        name = _ref.name;
+
+    var _require = __webpack_require__("./src/assets/icon sync recursive ./!./!./node_modules/raw-loader/dist/cjs.js!./ ^\\.\\/.*\\.svg$")("./".concat(name, ".svg")),
+        svg = _require.default;
+
+    return _react.default.createElement("span", {
+      className: "gt-ico ".concat(className)
+    }, _react.default.createElement("span", {
+      className: "gt-svg",
+      dangerouslySetInnerHTML: {
+        __html: svg
+      }
+    }), text && _react.default.createElement("span", {
+      className: "gt-ico-text"
+    }, text));
+  };
+
+  _exports.default = _default;
+  module.exports = exports.default;
 });
 
 /***/ }),
@@ -12199,18 +12270,31 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************!*\
   !*** ./src/const.js ***!
   \**********************/
-/*! exports provided: GT_ACCESS_TOKEN, GT_VERSION, GT_COMMENT */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GT_ACCESS_TOKEN", function() { return GT_ACCESS_TOKEN; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GT_VERSION", function() { return GT_VERSION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GT_COMMENT", function() { return GT_COMMENT; });
-var GT_ACCESS_TOKEN = 'GT_ACCESS_TOKEN';
-var GT_VERSION = "1.5.1"; // eslint-disable-line
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports) {
+  "use strict";
 
-var GT_COMMENT = 'GT_COMMENT';
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.GT_COMMENT = _exports.GT_VERSION = _exports.GT_ACCESS_TOKEN = void 0;
+  var GT_ACCESS_TOKEN = 'GT_ACCESS_TOKEN';
+  _exports.GT_ACCESS_TOKEN = GT_ACCESS_TOKEN;
+  var GT_VERSION = "1.5.1"; // eslint-disable-line
+
+  _exports.GT_VERSION = GT_VERSION;
+  var GT_COMMENT = 'GT_COMMENT';
+  _exports.GT_COMMENT = GT_COMMENT;
+});
 
 /***/ }),
 
@@ -12218,1037 +12302,1040 @@ var GT_COMMENT = 'GT_COMMENT';
 /*!************************!*\
   !*** ./src/gitalk.jsx ***!
   \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
-/* harmony import */ var react_flip_move__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-flip-move */ "./node_modules/react-flip-move/dist/react-flip-move.es.js");
-/* harmony import */ var autosize__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! autosize */ "./node_modules/autosize/dist/autosize.js");
-/* harmony import */ var autosize__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(autosize__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./i18n */ "./src/i18n/index.js");
-/* harmony import */ var _style_index_styl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style/index.styl */ "./src/style/index.styl");
-/* harmony import */ var _style_index_styl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_style_index_styl__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util */ "./src/util.js");
-/* harmony import */ var _component_avatar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/avatar */ "./src/component/avatar.jsx");
-/* harmony import */ var _component_button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/button */ "./src/component/button.jsx");
-/* harmony import */ var _component_action__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./component/action */ "./src/component/action.jsx");
-/* harmony import */ var _component_comment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./component/comment */ "./src/component/comment.jsx");
-/* harmony import */ var _component_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./component/svg */ "./src/component/svg.jsx");
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./const */ "./src/const.js");
-/* harmony import */ var _graphql_getComments__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./graphql/getComments */ "./src/graphql/getComments.js");
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js"), __webpack_require__(/*! react-flip-move */ "./node_modules/react-flip-move/dist/react-flip-move.es.js"), __webpack_require__(/*! autosize */ "./node_modules/autosize/dist/autosize.js"), __webpack_require__(/*! ./i18n */ "./src/i18n/index.js"), __webpack_require__(/*! ./style/index.styl */ "./src/style/index.styl"), __webpack_require__(/*! ./util */ "./src/util.js"), __webpack_require__(/*! ./component/avatar */ "./src/component/avatar.jsx"), __webpack_require__(/*! ./component/button */ "./src/component/button.jsx"), __webpack_require__(/*! ./component/action */ "./src/component/action.jsx"), __webpack_require__(/*! ./component/comment */ "./src/component/comment.jsx"), __webpack_require__(/*! ./component/svg */ "./src/component/svg.jsx"), __webpack_require__(/*! ./const */ "./src/const.js"), __webpack_require__(/*! ./graphql/getComments */ "./src/graphql/getComments.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react, _reactFlipMove, _autosize, _i18n, _index, _util, _avatar, _button, _action, _comment, _svg, _const, _getComments) {
+  "use strict";
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireWildcard(_react);
+  _reactFlipMove = _interopRequireDefault(_reactFlipMove);
+  _autosize = _interopRequireDefault(_autosize);
+  _i18n = _interopRequireDefault(_i18n);
+  _avatar = _interopRequireDefault(_avatar);
+  _button = _interopRequireDefault(_button);
+  _action = _interopRequireDefault(_action);
+  _comment = _interopRequireDefault(_comment);
+  _svg = _interopRequireDefault(_svg);
+  _getComments = _interopRequireDefault(_getComments);
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+  function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+  function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+  function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+  function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
+  function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
+  function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+  function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+  var GitalkComponent =
+  /*#__PURE__*/
+  function (_Component) {
+    _inherits(GitalkComponent, _Component);
 
+    function GitalkComponent(props) {
+      var _this;
 
+      _classCallCheck(this, GitalkComponent);
 
+      _this = _possibleConstructorReturn(this, _getPrototypeOf(GitalkComponent).call(this, props));
 
+      _defineProperty(_assertThisInitialized(_this), "state", {
+        user: null,
+        issue: null,
+        comments: [],
+        localComments: [],
+        comment: '',
+        page: 1,
+        pagerDirection: 'last',
+        cursor: null,
+        previewHtml: '',
+        isNoInit: false,
+        isIniting: true,
+        isCreating: false,
+        isLoading: false,
+        isLoadMore: false,
+        isLoadOver: false,
+        isIssueCreating: false,
+        isPopupVisible: false,
+        isInputFocused: false,
+        isPreview: false,
+        isOccurError: false,
+        errorMsg: ''
+      });
 
+      _defineProperty(_assertThisInitialized(_this), "getCommentsV3", function (issue) {
+        var _this$options = _this.options,
+            clientID = _this$options.clientID,
+            clientSecret = _this$options.clientSecret,
+            perPage = _this$options.perPage;
+        var page = _this.state.page;
+        return _this.getIssue().then(function (issue) {
+          if (!issue) return;
+          return _util.axiosGithub.get(issue.comments_url, {
+            headers: {
+              Accept: 'application/vnd.github.v3.full+json'
+            },
+            params: {
+              client_id: clientID,
+              client_secret: clientSecret,
+              per_page: perPage,
+              page: page
+            }
+          }).then(function (res) {
+            var _this$state = _this.state,
+                comments = _this$state.comments,
+                issue = _this$state.issue;
+            var isLoadOver = false;
+            var cs = comments.concat(res.data);
 
+            if (cs.length >= issue.comments || res.data.length < perPage) {
+              isLoadOver = true;
+            }
 
+            _this.setState({
+              comments: cs,
+              isLoadOver: isLoadOver,
+              page: page + 1
+            });
 
-
-
-var GitalkComponent =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(GitalkComponent, _Component);
-
-  function GitalkComponent(props) {
-    var _this;
-
-    _classCallCheck(this, GitalkComponent);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(GitalkComponent).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "state", {
-      user: null,
-      issue: null,
-      comments: [],
-      localComments: [],
-      comment: '',
-      page: 1,
-      pagerDirection: 'last',
-      cursor: null,
-      previewHtml: '',
-      isNoInit: false,
-      isIniting: true,
-      isCreating: false,
-      isLoading: false,
-      isLoadMore: false,
-      isLoadOver: false,
-      isIssueCreating: false,
-      isPopupVisible: false,
-      isInputFocused: false,
-      isPreview: false,
-      isOccurError: false,
-      errorMsg: ''
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "getCommentsV3", function (issue) {
-      var _this$options = _this.options,
-          clientID = _this$options.clientID,
-          clientSecret = _this$options.clientSecret,
-          perPage = _this$options.perPage;
-      var page = _this.state.page;
-      return _this.getIssue().then(function (issue) {
-        if (!issue) return;
-        return _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].get(issue.comments_url, {
-          headers: {
-            Accept: 'application/vnd.github.v3.full+json'
-          },
-          params: {
-            client_id: clientID,
-            client_secret: clientSecret,
-            per_page: perPage,
-            page: page
-          }
-        }).then(function (res) {
-          var _this$state = _this.state,
-              comments = _this$state.comments,
-              issue = _this$state.issue;
-          var isLoadOver = false;
-          var cs = comments.concat(res.data);
-
-          if (cs.length >= issue.comments || res.data.length < perPage) {
-            isLoadOver = true;
-          }
-
-          _this.setState({
-            comments: cs,
-            isLoadOver: isLoadOver,
-            page: page + 1
+            return cs;
           });
-
-          return cs;
         });
       });
-    });
 
-    _defineProperty(_assertThisInitialized(_this), "getRef", function (e) {
-      _this.publicBtnEL = e;
-    });
+      _defineProperty(_assertThisInitialized(_this), "getRef", function (e) {
+        _this.publicBtnEL = e;
+      });
 
-    _defineProperty(_assertThisInitialized(_this), "reply", function (replyComment) {
-      return function () {
-        var comment = _this.state.comment;
-        var replyCommentBody = replyComment.body;
-        var replyCommentArray = replyCommentBody.split('\n');
-        replyCommentArray.unshift("@".concat(replyComment.user.login));
-        replyCommentArray = replyCommentArray.map(function (t) {
-          return "> ".concat(t);
-        });
-        replyCommentArray.push('');
-        replyCommentArray.push('');
-        if (comment) replyCommentArray.unshift('');
+      _defineProperty(_assertThisInitialized(_this), "reply", function (replyComment) {
+        return function () {
+          var comment = _this.state.comment;
+          var replyCommentBody = replyComment.body;
+          var replyCommentArray = replyCommentBody.split('\n');
+          replyCommentArray.unshift("@".concat(replyComment.user.login));
+          replyCommentArray = replyCommentArray.map(function (t) {
+            return "> ".concat(t);
+          });
+          replyCommentArray.push('');
+          replyCommentArray.push('');
+          if (comment) replyCommentArray.unshift('');
+
+          _this.setState({
+            comment: comment + replyCommentArray.join('\n')
+          }, function () {
+            _autosize.default.update(_this.commentEL);
+
+            _this.commentEL.focus();
+          });
+        };
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handlePopup", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isVisible = !_this.state.isPopupVisible;
+
+        var hideHandle = function hideHandle(e1) {
+          if ((0, _util.hasClassInParent)(e1.target, 'gt-user', 'gt-popup')) {
+            return;
+          }
+
+          window.document.removeEventListener('click', hideHandle);
+
+          _this.setState({
+            isPopupVisible: false
+          });
+        };
 
         _this.setState({
-          comment: comment + replyCommentArray.join('\n')
-        }, function () {
-          autosize__WEBPACK_IMPORTED_MODULE_2___default.a.update(_this.commentEL);
+          isPopupVisible: isVisible
+        });
+
+        if (isVisible) {
+          window.document.addEventListener('click', hideHandle);
+        } else {
+          window.document.removeEventListener('click', hideHandle);
+        }
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleLogin", function () {
+        var comment = _this.state.comment;
+        window.localStorage.setItem(_const.GT_COMMENT, encodeURIComponent(comment));
+        window.location.href = _this.loginLink;
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleIssueCreate", function () {
+        _this.setState({
+          isIssueCreating: true
+        });
+
+        _this.createIssue().then(function (issue) {
+          _this.setState({
+            isIssueCreating: false,
+            isOccurError: false
+          });
+
+          return _this.getComments(issue);
+        }).catch(function (err) {
+          _this.setState({
+            isIssueCreating: false,
+            isOccurError: true,
+            errorMsg: (0, _util.formatErrorMsg)(err)
+          });
+        });
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleCommentCreate", function (e) {
+        if (!_this.state.comment.length) {
+          e && e.preventDefault();
 
           _this.commentEL.focus();
-        });
-      };
-    });
 
-    _defineProperty(_assertThisInitialized(_this), "handlePopup", function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      var isVisible = !_this.state.isPopupVisible;
-
-      var hideHandle = function hideHandle(e1) {
-        if (Object(_util__WEBPACK_IMPORTED_MODULE_5__["hasClassInParent"])(e1.target, 'gt-user', 'gt-popup')) {
           return;
         }
 
-        window.document.removeEventListener('click', hideHandle);
-
         _this.setState({
-          isPopupVisible: false
-        });
-      };
-
-      _this.setState({
-        isPopupVisible: isVisible
-      });
-
-      if (isVisible) {
-        window.document.addEventListener('click', hideHandle);
-      } else {
-        window.document.removeEventListener('click', hideHandle);
-      }
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleLogin", function () {
-      var comment = _this.state.comment;
-      window.localStorage.setItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_COMMENT"], encodeURIComponent(comment));
-      window.location.href = _this.loginLink;
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleIssueCreate", function () {
-      _this.setState({
-        isIssueCreating: true
-      });
-
-      _this.createIssue().then(function (issue) {
-        _this.setState({
-          isIssueCreating: false,
-          isOccurError: false
+          isCreating: true
         });
 
-        return _this.getComments(issue);
-      }).catch(function (err) {
-        _this.setState({
-          isIssueCreating: false,
-          isOccurError: true,
-          errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
+        _this.createComment().then(function () {
+          return _this.setState({
+            isCreating: false,
+            isOccurError: false
+          });
+        }).catch(function (err) {
+          _this.setState({
+            isCreating: false,
+            isOccurError: true,
+            errorMsg: (0, _util.formatErrorMsg)(err)
+          });
         });
       });
-    });
 
-    _defineProperty(_assertThisInitialized(_this), "handleCommentCreate", function (e) {
-      if (!_this.state.comment.length) {
-        e && e.preventDefault();
+      _defineProperty(_assertThisInitialized(_this), "handleCommentPreview", function (e) {
+        _this.setState({
+          isPreview: !_this.state.isPreview
+        });
 
-        _this.commentEL.focus();
-
-        return;
-      }
-
-      _this.setState({
-        isCreating: true
+        _util.axiosGithub.post('/markdown', {
+          text: _this.state.comment
+        }, {
+          headers: _this.accessToken && {
+            Authorization: "token ".concat(_this.accessToken)
+          }
+        }).then(function (res) {
+          _this.setState({
+            previewHtml: res.data
+          });
+        }).catch(function (err) {
+          _this.setState({
+            isOccurError: true,
+            errorMsg: (0, _util.formatErrorMsg)(err)
+          });
+        });
       });
 
-      _this.createComment().then(function () {
+      _defineProperty(_assertThisInitialized(_this), "handleCommentLoad", function () {
+        var _this$state2 = _this.state,
+            issue = _this$state2.issue,
+            isLoadMore = _this$state2.isLoadMore;
+        if (isLoadMore) return;
+
+        _this.setState({
+          isLoadMore: true
+        });
+
+        _this.getComments(issue).then(function () {
+          return _this.setState({
+            isLoadMore: false
+          });
+        });
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleCommentChange", function (e) {
         return _this.setState({
-          isCreating: false,
-          isOccurError: false
+          comment: e.target.value
         });
-      }).catch(function (err) {
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleLogout", function () {
+        _this.logout();
+
+        window.location.reload();
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleCommentFocus", function (e) {
+        var distractionFreeMode = _this.options.distractionFreeMode;
+        if (!distractionFreeMode) return e.preventDefault();
+
         _this.setState({
-          isCreating: false,
-          isOccurError: true,
-          errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
+          isInputFocused: true
         });
       });
-    });
 
-    _defineProperty(_assertThisInitialized(_this), "handleCommentPreview", function (e) {
-      _this.setState({
-        isPreview: !_this.state.isPreview
+      _defineProperty(_assertThisInitialized(_this), "handleCommentBlur", function (e) {
+        var distractionFreeMode = _this.options.distractionFreeMode;
+        if (!distractionFreeMode) return e.preventDefault();
+
+        _this.setState({
+          isInputFocused: false
+        });
       });
 
-      _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].post('/markdown', {
-        text: _this.state.comment
-      }, {
-        headers: _this.accessToken && {
-          Authorization: "token ".concat(_this.accessToken)
+      _defineProperty(_assertThisInitialized(_this), "handleSort", function (direction) {
+        return function (e) {
+          _this.setState({
+            pagerDirection: direction
+          });
+        };
+      });
+
+      _defineProperty(_assertThisInitialized(_this), "handleCommentKeyDown", function (e) {
+        var enableHotKey = _this.options.enableHotKey;
+
+        if (enableHotKey && (e.metaKey || e.ctrlKey) && e.keyCode === 13) {
+          _this.publicBtnEL && _this.publicBtnEL.focus();
+
+          _this.handleCommentCreate();
         }
-      }).then(function (res) {
-        _this.setState({
-          previewHtml: res.data
-        });
-      }).catch(function (err) {
-        _this.setState({
-          isOccurError: true,
-          errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
-        });
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleCommentLoad", function () {
-      var _this$state2 = _this.state,
-          issue = _this$state2.issue,
-          isLoadMore = _this$state2.isLoadMore;
-      if (isLoadMore) return;
-
-      _this.setState({
-        isLoadMore: true
       });
 
-      _this.getComments(issue).then(function () {
-        return _this.setState({
-          isLoadMore: false
-        });
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleCommentChange", function (e) {
-      return _this.setState({
-        comment: e.target.value
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleLogout", function () {
-      _this.logout();
-
-      window.location.reload();
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleCommentFocus", function (e) {
-      var distractionFreeMode = _this.options.distractionFreeMode;
-      if (!distractionFreeMode) return e.preventDefault();
-
-      _this.setState({
-        isInputFocused: true
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleCommentBlur", function (e) {
-      var distractionFreeMode = _this.options.distractionFreeMode;
-      if (!distractionFreeMode) return e.preventDefault();
-
-      _this.setState({
-        isInputFocused: false
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleSort", function (direction) {
-      return function (e) {
-        _this.setState({
-          pagerDirection: direction
-        });
-      };
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "handleCommentKeyDown", function (e) {
-      var enableHotKey = _this.options.enableHotKey;
-
-      if (enableHotKey && (e.metaKey || e.ctrlKey) && e.keyCode === 13) {
-        _this.publicBtnEL && _this.publicBtnEL.focus();
-
-        _this.handleCommentCreate();
-      }
-    });
-
-    _this.options = Object.assign({}, {
-      id: window.location.href,
-      number: -1,
-      labels: ['Gitalk'],
-      title: window.document.title,
-      body: '',
-      // window.location.href + header.meta[description]
-      language: window.navigator.language || window.navigator.userLanguage,
-      perPage: 10,
-      pagerDirection: 'last',
-      // last or first
-      createIssueManually: false,
-      distractionFreeMode: false,
-      proxy: 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
-      flipMoveOptions: {
-        staggerDelayBy: 150,
-        appearAnimation: 'accordionVertical',
-        enterAnimation: 'accordionVertical',
-        leaveAnimation: 'accordionVertical'
-      },
-      enableHotKey: true,
-      url: window.location.href,
-      defaultAuthor: {
-        avatarUrl: '//avatars1.githubusercontent.com/u/29697133?s=50',
-        login: 'null',
-        url: ''
-      },
-      updateCountCallback: null
-    }, props.options);
-    _this.state.pagerDirection = _this.options.pagerDirection;
-    var storedComment = window.localStorage.getItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_COMMENT"]);
-
-    if (storedComment) {
-      _this.state.comment = decodeURIComponent(storedComment);
-      window.localStorage.removeItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_COMMENT"]);
-    }
-
-    var query = Object(_util__WEBPACK_IMPORTED_MODULE_5__["queryParse"])();
-
-    if (query.code) {
-      var code = query.code;
-      delete query.code;
-      var replacedUrl = "".concat(window.location.origin).concat(window.location.pathname).concat(Object(_util__WEBPACK_IMPORTED_MODULE_5__["queryStringify"])(query)).concat(window.location.hash);
-      history.replaceState(null, null, replacedUrl);
-      _this.options = Object.assign({}, _this.options, {
-        url: replacedUrl,
-        id: replacedUrl
+      _this.options = Object.assign({}, {
+        id: window.location.href,
+        number: -1,
+        labels: ['Gitalk'],
+        title: window.document.title,
+        body: '',
+        // window.location.href + header.meta[description]
+        language: window.navigator.language || window.navigator.userLanguage,
+        perPage: 10,
+        pagerDirection: 'last',
+        // last or first
+        createIssueManually: false,
+        distractionFreeMode: false,
+        proxy: 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
+        flipMoveOptions: {
+          staggerDelayBy: 150,
+          appearAnimation: 'accordionVertical',
+          enterAnimation: 'accordionVertical',
+          leaveAnimation: 'accordionVertical'
+        },
+        enableHotKey: true,
+        url: window.location.href,
+        defaultAuthor: {
+          avatarUrl: '//avatars1.githubusercontent.com/u/29697133?s=50',
+          login: 'null',
+          url: ''
+        },
+        updateCountCallback: null
       }, props.options);
-      _util__WEBPACK_IMPORTED_MODULE_5__["axiosJSON"].post(_this.options.proxy, {
-        code: code,
-        client_id: _this.options.clientID,
-        client_secret: _this.options.clientSecret
-      }).then(function (res) {
-        if (res.data && res.data.access_token) {
-          _this.accessToken = res.data.access_token;
+      _this.state.pagerDirection = _this.options.pagerDirection;
+      var storedComment = window.localStorage.getItem(_const.GT_COMMENT);
 
-          _this.getInit().then(function () {
-            return _this.setState({
-              isIniting: false
+      if (storedComment) {
+        _this.state.comment = decodeURIComponent(storedComment);
+        window.localStorage.removeItem(_const.GT_COMMENT);
+      }
+
+      var query = (0, _util.queryParse)();
+
+      if (query.code) {
+        var code = query.code;
+        delete query.code;
+        var replacedUrl = "".concat(window.location.origin).concat(window.location.pathname).concat((0, _util.queryStringify)(query)).concat(window.location.hash);
+        history.replaceState(null, null, replacedUrl);
+        _this.options = Object.assign({}, _this.options, {
+          url: replacedUrl,
+          id: replacedUrl
+        }, props.options);
+
+        _util.axiosJSON.post(_this.options.proxy, {
+          code: code,
+          client_id: _this.options.clientID,
+          client_secret: _this.options.clientSecret
+        }).then(function (res) {
+          if (res.data && res.data.access_token) {
+            _this.accessToken = res.data.access_token;
+
+            _this.getInit().then(function () {
+              return _this.setState({
+                isIniting: false
+              });
+            }).catch(function (err) {
+              console.log('err:', err);
+
+              _this.setState({
+                isIniting: false,
+                isOccurError: true,
+                errorMsg: (0, _util.formatErrorMsg)(err)
+              });
             });
-          }).catch(function (err) {
-            console.log('err:', err);
+          } else {
+            // no access_token
+            console.log('res.data err:', res.data);
 
             _this.setState({
-              isIniting: false,
               isOccurError: true,
-              errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
+              errorMsg: (0, _util.formatErrorMsg)(new Error('no access token'))
             });
-          });
-        } else {
-          // no access_token
-          console.log('res.data err:', res.data);
+          }
+        }).catch(function (err) {
+          console.log('err: ', err);
 
           _this.setState({
             isOccurError: true,
-            errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(new Error('no access token'))
+            errorMsg: (0, _util.formatErrorMsg)(err)
           });
-        }
-      }).catch(function (err) {
-        console.log('err: ', err);
+        });
+      } else {
+        _this.getInit().then(function () {
+          return _this.setState({
+            isIniting: false
+          });
+        }).catch(function (err) {
+          console.log('err:', err);
 
-        _this.setState({
-          isOccurError: true,
-          errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
+          _this.setState({
+            isIniting: false,
+            isOccurError: true,
+            errorMsg: (0, _util.formatErrorMsg)(err)
+          });
         });
-      });
-    } else {
-      _this.getInit().then(function () {
-        return _this.setState({
-          isIniting: false
-        });
-      }).catch(function (err) {
-        console.log('err:', err);
+      }
 
-        _this.setState({
-          isIniting: false,
-          isOccurError: true,
-          errorMsg: Object(_util__WEBPACK_IMPORTED_MODULE_5__["formatErrorMsg"])(err)
-        });
-      });
+      _this.i18n = (0, _i18n.default)(_this.options.language);
+      return _this;
     }
 
-    _this.i18n = Object(_i18n__WEBPACK_IMPORTED_MODULE_3__["default"])(_this.options.language);
-    return _this;
-  }
+    _createClass(GitalkComponent, [{
+      key: "componentDidUpdate",
+      value: function componentDidUpdate() {
+        this.commentEL && (0, _autosize.default)(this.commentEL);
+      }
+    }, {
+      key: "getInit",
+      value: function getInit() {
+        var _this2 = this;
 
-  _createClass(GitalkComponent, [{
-    key: "componentDidUpdate",
-    value: function componentDidUpdate() {
-      this.commentEL && autosize__WEBPACK_IMPORTED_MODULE_2___default()(this.commentEL);
-    }
-  }, {
-    key: "getInit",
-    value: function getInit() {
-      var _this2 = this;
-
-      return this.getUserInfo().then(function () {
-        return _this2.getIssue();
-      }).then(function (issue) {
-        return _this2.getComments(issue);
-      });
-    }
-  }, {
-    key: "getUserInfo",
-    value: function getUserInfo() {
-      var _this3 = this;
-
-      return _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].get('/user', {
-        headers: {
-          Authorization: "token ".concat(this.accessToken)
-        }
-      }).then(function (res) {
-        _this3.setState({
-          user: res.data
+        return this.getUserInfo().then(function () {
+          return _this2.getIssue();
+        }).then(function (issue) {
+          return _this2.getComments(issue);
         });
-      }).catch(function (err) {
-        _this3.logout();
-      });
-    }
-  }, {
-    key: "getIssueById",
-    value: function getIssueById() {
-      var _this4 = this;
+      }
+    }, {
+      key: "getUserInfo",
+      value: function getUserInfo() {
+        var _this3 = this;
 
-      var _this$options2 = this.options,
-          owner = _this$options2.owner,
-          repo = _this$options2.repo,
-          number = _this$options2.number,
-          clientID = _this$options2.clientID,
-          clientSecret = _this$options2.clientSecret;
-      var getUrl = "/repos/".concat(owner, "/").concat(repo, "/issues/").concat(number);
-      return new Promise(function (resolve, reject) {
-        _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].get(getUrl, {
+        return _util.axiosGithub.get('/user', {
+          headers: {
+            Authorization: "token ".concat(this.accessToken)
+          }
+        }).then(function (res) {
+          _this3.setState({
+            user: res.data
+          });
+        }).catch(function (err) {
+          _this3.logout();
+        });
+      }
+    }, {
+      key: "getIssueById",
+      value: function getIssueById() {
+        var _this4 = this;
+
+        var _this$options2 = this.options,
+            owner = _this$options2.owner,
+            repo = _this$options2.repo,
+            number = _this$options2.number,
+            clientID = _this$options2.clientID,
+            clientSecret = _this$options2.clientSecret;
+        var getUrl = "/repos/".concat(owner, "/").concat(repo, "/issues/").concat(number);
+        return new Promise(function (resolve, reject) {
+          _util.axiosGithub.get(getUrl, {
+            params: {
+              client_id: clientID,
+              client_secret: clientSecret,
+              t: Date.now()
+            }
+          }).then(function (res) {
+            var issue = null;
+
+            if (res && res.data && res.data.number === number) {
+              issue = res.data;
+
+              _this4.setState({
+                issue: issue,
+                isNoInit: false
+              });
+            }
+
+            resolve(issue);
+          }).catch(function (err) {
+            // When the status code is 404, promise will be resolved with null
+            if (err.response.status === 404) resolve(null);
+            reject(err);
+          });
+        });
+      }
+    }, {
+      key: "getIssueByLabels",
+      value: function getIssueByLabels() {
+        var _this5 = this;
+
+        var _this$options3 = this.options,
+            owner = _this$options3.owner,
+            repo = _this$options3.repo,
+            id = _this$options3.id,
+            labels = _this$options3.labels,
+            clientID = _this$options3.clientID,
+            clientSecret = _this$options3.clientSecret;
+        return _util.axiosGithub.get("/repos/".concat(owner, "/").concat(repo, "/issues"), {
           params: {
             client_id: clientID,
             client_secret: clientSecret,
+            labels: labels.concat(id).join(','),
             t: Date.now()
           }
         }).then(function (res) {
+          var createIssueManually = _this5.options.createIssueManually;
+          var isNoInit = false;
           var issue = null;
 
-          if (res && res.data && res.data.number === number) {
-            issue = res.data;
-
-            _this4.setState({
-              issue: issue,
-              isNoInit: false
-            });
-          }
-
-          resolve(issue);
-        }).catch(function (err) {
-          // When the status code is 404, promise will be resolved with null
-          if (err.response.status === 404) resolve(null);
-          reject(err);
-        });
-      });
-    }
-  }, {
-    key: "getIssueByLabels",
-    value: function getIssueByLabels() {
-      var _this5 = this;
-
-      var _this$options3 = this.options,
-          owner = _this$options3.owner,
-          repo = _this$options3.repo,
-          id = _this$options3.id,
-          labels = _this$options3.labels,
-          clientID = _this$options3.clientID,
-          clientSecret = _this$options3.clientSecret;
-      return _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].get("/repos/".concat(owner, "/").concat(repo, "/issues"), {
-        params: {
-          client_id: clientID,
-          client_secret: clientSecret,
-          labels: labels.concat(id).join(','),
-          t: Date.now()
-        }
-      }).then(function (res) {
-        var createIssueManually = _this5.options.createIssueManually;
-        var isNoInit = false;
-        var issue = null;
-
-        if (!(res && res.data && res.data.length)) {
-          if (!createIssueManually && _this5.isAdmin) {
-            return _this5.createIssue();
-          }
-
-          isNoInit = true;
-        } else {
-          issue = res.data[0];
-        }
-
-        _this5.setState({
-          issue: issue,
-          isNoInit: isNoInit
-        });
-
-        return issue;
-      });
-    }
-  }, {
-    key: "getIssue",
-    value: function getIssue() {
-      var _this6 = this;
-
-      var number = this.options.number;
-      var issue = this.state.issue;
-
-      if (issue) {
-        this.setState({
-          isNoInit: false
-        });
-        return Promise.resolve(issue);
-      }
-
-      if (typeof number === 'number' && number > 0) {
-        return this.getIssueById().then(function (resIssue) {
-          if (!resIssue) return _this6.getIssueByLabels();
-          return resIssue;
-        });
-      }
-
-      return this.getIssueByLabels();
-    }
-  }, {
-    key: "createIssue",
-    value: function createIssue() {
-      var _this7 = this;
-
-      var _this$options4 = this.options,
-          owner = _this$options4.owner,
-          repo = _this$options4.repo,
-          title = _this$options4.title,
-          body = _this$options4.body,
-          id = _this$options4.id,
-          labels = _this$options4.labels,
-          url = _this$options4.url;
-      return _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].post("/repos/".concat(owner, "/").concat(repo, "/issues"), {
-        title: title,
-        labels: labels.concat(id),
-        body: body || "".concat(url, " \n\n ").concat(Object(_util__WEBPACK_IMPORTED_MODULE_5__["getMetaContent"])('description') || Object(_util__WEBPACK_IMPORTED_MODULE_5__["getMetaContent"])('description', 'og:description') || '')
-      }, {
-        headers: {
-          Authorization: "token ".concat(this.accessToken)
-        }
-      }).then(function (res) {
-        _this7.setState({
-          issue: res.data
-        });
-
-        return res.data;
-      });
-    } // Get comments via v3 api, don't require login, but sorting feature is disable
-
-  }, {
-    key: "getComments",
-    value: function getComments(issue) {
-      if (!issue) return; // Get comments via v4 graphql api, login required and sorting feature is available
-
-      if (this.accessToken) return _graphql_getComments__WEBPACK_IMPORTED_MODULE_12__["default"].call(this, issue);
-      return this.getCommentsV3(issue);
-    }
-  }, {
-    key: "createComment",
-    value: function createComment() {
-      var _this8 = this;
-
-      var _this$state3 = this.state,
-          comment = _this$state3.comment,
-          localComments = _this$state3.localComments,
-          comments = _this$state3.comments;
-      return this.getIssue().then(function (issue) {
-        return _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].post(issue.comments_url, {
-          body: comment
-        }, {
-          headers: {
-            Accept: 'application/vnd.github.v3.full+json',
-            Authorization: "token ".concat(_this8.accessToken)
-          }
-        });
-      }).then(function (res) {
-        _this8.setState({
-          comment: '',
-          comments: comments.concat(res.data),
-          localComments: localComments.concat(res.data)
-        });
-      });
-    }
-  }, {
-    key: "logout",
-    value: function logout() {
-      this.setState({
-        user: null
-      });
-      window.localStorage.removeItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_ACCESS_TOKEN"]);
-    }
-  }, {
-    key: "like",
-    value: function like(comment) {
-      var _this9 = this;
-
-      var _this$options5 = this.options,
-          owner = _this$options5.owner,
-          repo = _this$options5.repo;
-      var user = this.state.user;
-      var comments = this.state.comments;
-      _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].post("/repos/".concat(owner, "/").concat(repo, "/issues/comments/").concat(comment.id, "/reactions"), {
-        content: 'heart'
-      }, {
-        headers: {
-          Authorization: "token ".concat(this.accessToken),
-          Accept: 'application/vnd.github.squirrel-girl-preview'
-        }
-      }).then(function (res) {
-        comments = comments.map(function (c) {
-          if (c.id === comment.id) {
-            if (c.reactions) {
-              if (!~c.reactions.nodes.findIndex(function (n) {
-                return n.user.login === user.login;
-              })) {
-                c.reactions.totalCount += 1;
-              }
-            } else {
-              c.reactions = {
-                nodes: []
-              };
-              c.reactions.totalCount = 1;
+          if (!(res && res.data && res.data.length)) {
+            if (!createIssueManually && _this5.isAdmin) {
+              return _this5.createIssue();
             }
 
-            c.reactions.nodes.push(res.data);
-            c.reactions.viewerHasReacted = true;
+            isNoInit = true;
+          } else {
+            issue = res.data[0];
           }
 
-          return c;
+          _this5.setState({
+            issue: issue,
+            isNoInit: isNoInit
+          });
+
+          return issue;
         });
+      }
+    }, {
+      key: "getIssue",
+      value: function getIssue() {
+        var _this6 = this;
 
-        _this9.setState({
-          comments: comments
-        });
-      });
-    }
-  }, {
-    key: "unLike",
-    value: function unLike(comment) {
-      var _this10 = this;
+        var number = this.options.number;
+        var issue = this.state.issue;
 
-      var user = this.state.user;
-      var comments = this.state.comments; // const {  user } = this.state
-      // let id
-      // comment.reactions.nodes.forEach(r => {
-      //   if (r.user.login = user.login) id = r.databaseId
-      // })
-      // return axiosGithub.delete(`/reactions/${id}`, {
-      //   headers: {
-      //     Authorization: `token ${this.accessToken}`,
-      //     Accept: 'application/vnd.github.squirrel-girl-preview'
-      //   }
-      // }).then(res => {
-      //   console.log('res:', res)
-      // })
-
-      var getQL = function getQL(id) {
-        return {
-          operationName: 'RemoveReaction',
-          query: "\n          mutation RemoveReaction{\n            removeReaction (input:{\n              subjectId: \"".concat(id, "\",\n              content: HEART\n            }) {\n              reaction {\n                content\n              }\n            }\n          }\n        ")
-        };
-      };
-
-      _util__WEBPACK_IMPORTED_MODULE_5__["axiosGithub"].post('/graphql', getQL(comment.gId), {
-        headers: {
-          Authorization: "bearer ".concat(this.accessToken)
+        if (issue) {
+          this.setState({
+            isNoInit: false
+          });
+          return Promise.resolve(issue);
         }
-      }).then(function (res) {
-        if (res.data) {
+
+        if (typeof number === 'number' && number > 0) {
+          return this.getIssueById().then(function (resIssue) {
+            if (!resIssue) return _this6.getIssueByLabels();
+            return resIssue;
+          });
+        }
+
+        return this.getIssueByLabels();
+      }
+    }, {
+      key: "createIssue",
+      value: function createIssue() {
+        var _this7 = this;
+
+        var _this$options4 = this.options,
+            owner = _this$options4.owner,
+            repo = _this$options4.repo,
+            title = _this$options4.title,
+            body = _this$options4.body,
+            id = _this$options4.id,
+            labels = _this$options4.labels,
+            url = _this$options4.url;
+        return _util.axiosGithub.post("/repos/".concat(owner, "/").concat(repo, "/issues"), {
+          title: title,
+          labels: labels.concat(id),
+          body: body || "".concat(url, " \n\n ").concat((0, _util.getMetaContent)('description') || (0, _util.getMetaContent)('description', 'og:description') || '')
+        }, {
+          headers: {
+            Authorization: "token ".concat(this.accessToken)
+          }
+        }).then(function (res) {
+          _this7.setState({
+            issue: res.data
+          });
+
+          return res.data;
+        });
+      } // Get comments via v3 api, don't require login, but sorting feature is disable
+
+    }, {
+      key: "getComments",
+      value: function getComments(issue) {
+        if (!issue) return; // Get comments via v4 graphql api, login required and sorting feature is available
+
+        if (this.accessToken) return _getComments.default.call(this, issue);
+        return this.getCommentsV3(issue);
+      }
+    }, {
+      key: "createComment",
+      value: function createComment() {
+        var _this8 = this;
+
+        var _this$state3 = this.state,
+            comment = _this$state3.comment,
+            localComments = _this$state3.localComments,
+            comments = _this$state3.comments;
+        return this.getIssue().then(function (issue) {
+          return _util.axiosGithub.post(issue.comments_url, {
+            body: comment
+          }, {
+            headers: {
+              Accept: 'application/vnd.github.v3.full+json',
+              Authorization: "token ".concat(_this8.accessToken)
+            }
+          });
+        }).then(function (res) {
+          _this8.setState({
+            comment: '',
+            comments: comments.concat(res.data),
+            localComments: localComments.concat(res.data)
+          });
+        });
+      }
+    }, {
+      key: "logout",
+      value: function logout() {
+        this.setState({
+          user: null
+        });
+        window.localStorage.removeItem(_const.GT_ACCESS_TOKEN);
+      }
+    }, {
+      key: "like",
+      value: function like(comment) {
+        var _this9 = this;
+
+        var _this$options5 = this.options,
+            owner = _this$options5.owner,
+            repo = _this$options5.repo;
+        var user = this.state.user;
+        var comments = this.state.comments;
+
+        _util.axiosGithub.post("/repos/".concat(owner, "/").concat(repo, "/issues/comments/").concat(comment.id, "/reactions"), {
+          content: 'heart'
+        }, {
+          headers: {
+            Authorization: "token ".concat(this.accessToken),
+            Accept: 'application/vnd.github.squirrel-girl-preview'
+          }
+        }).then(function (res) {
           comments = comments.map(function (c) {
             if (c.id === comment.id) {
-              var index = c.reactions.nodes.findIndex(function (n) {
-                return n.user.login === user.login;
-              });
-
-              if (~index) {
-                c.reactions.totalCount -= 1;
-                c.reactions.nodes.splice(index, 1);
+              if (c.reactions) {
+                if (!~c.reactions.nodes.findIndex(function (n) {
+                  return n.user.login === user.login;
+                })) {
+                  c.reactions.totalCount += 1;
+                }
+              } else {
+                c.reactions = {
+                  nodes: []
+                };
+                c.reactions.totalCount = 1;
               }
 
-              c.reactions.viewerHasReacted = false;
+              c.reactions.nodes.push(res.data);
+              c.reactions.viewerHasReacted = true;
             }
 
             return c;
           });
 
-          _this10.setState({
+          _this9.setState({
             comments: comments
           });
-        }
-      });
-    }
-  }, {
-    key: "initing",
-    value: function initing() {
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-initing"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("i", {
-        className: "gt-loader"
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("p", {
-        className: "gt-initing-text"
-      }, this.i18n.t('init')));
-    }
-  }, {
-    key: "noInit",
-    value: function noInit() {
-      var _this$state4 = this.state,
-          user = _this$state4.user,
-          isIssueCreating = _this$state4.isIssueCreating;
-      var _this$options6 = this.options,
-          owner = _this$options6.owner,
-          repo = _this$options6.repo,
-          admin = _this$options6.admin;
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-no-init",
-        key: "no-init"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("p", {
-        dangerouslySetInnerHTML: {
-          __html: this.i18n.t('no-found-related', {
-            link: "<a href=\"https://github.com/".concat(owner, "/").concat(repo, "/issues\">Issues</a>")
-          })
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("p", null, this.i18n.t('please-contact', {
-        user: [].concat(admin).map(function (u) {
-          return "@".concat(u);
-        }).join(' ')
-      })), this.isAdmin ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        onClick: this.handleIssueCreate,
-        isLoading: isIssueCreating,
-        text: this.i18n.t('init-issue')
-      })) : null, !user && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        className: "gt-btn-login",
-        onClick: this.handleLogin,
-        text: this.i18n.t('login-with-github')
-      }));
-    }
-  }, {
-    key: "header",
-    value: function header() {
-      var _this11 = this;
-
-      var _this$state5 = this.state,
-          user = _this$state5.user,
-          comment = _this$state5.comment,
-          isCreating = _this$state5.isCreating,
-          previewHtml = _this$state5.previewHtml,
-          isPreview = _this$state5.isPreview;
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-header",
-        key: "header"
-      }, user ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_avatar__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        className: "gt-header-avatar",
-        src: user.avatar_url,
-        alt: user.login
-      }) : react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-avatar-github",
-        onMouseDown: this.handleLogin
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        className: "gt-ico-github",
-        name: "github"
-      })), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-header-comment"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("textarea", {
-        ref: function ref(t) {
-          _this11.commentEL = t;
-        },
-        className: "gt-header-textarea ".concat(isPreview ? 'hide' : ''),
-        value: comment,
-        onChange: this.handleCommentChange,
-        onFocus: this.handleCommentFocus,
-        onBlur: this.handleCommentBlur,
-        onKeyDown: this.handleCommentKeyDown,
-        placeholder: this.i18n.t('leave-a-comment')
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-header-preview markdown-body ".concat(isPreview ? '' : 'hide'),
-        dangerouslySetInnerHTML: {
-          __html: previewHtml
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-header-controls"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-header-controls-tip",
-        href: "https://guides.github.com/features/mastering-markdown/",
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        className: "gt-ico-tip",
-        name: "tip",
-        text: this.i18n.t('support-markdown')
-      })), user && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        getRef: this.getRef,
-        className: "gt-btn-public",
-        onMouseDown: this.handleCommentCreate,
-        text: this.i18n.t('comment'),
-        isLoading: isCreating
-      }), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        className: "gt-btn-preview",
-        onMouseDown: this.handleCommentPreview,
-        text: isPreview ? this.i18n.t('edit') : this.i18n.t('preview') // isLoading={isPreviewing}
-
-      }), !user && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        className: "gt-btn-login",
-        onMouseDown: this.handleLogin,
-        text: this.i18n.t('login-with-github')
-      }))));
-    }
-  }, {
-    key: "comments",
-    value: function comments() {
-      var _this12 = this;
-
-      var _this$state6 = this.state,
-          user = _this$state6.user,
-          comments = _this$state6.comments,
-          isLoadOver = _this$state6.isLoadOver,
-          isLoadMore = _this$state6.isLoadMore,
-          pagerDirection = _this$state6.pagerDirection;
-      var _this$options7 = this.options,
-          language = _this$options7.language,
-          flipMoveOptions = _this$options7.flipMoveOptions,
-          admin = _this$options7.admin;
-      var totalComments = comments.concat([]);
-
-      if (pagerDirection === 'last' && this.accessToken) {
-        totalComments.reverse();
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comments",
-        key: "comments"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(react_flip_move__WEBPACK_IMPORTED_MODULE_1__["default"], flipMoveOptions, totalComments.map(function (c) {
-        return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_comment__WEBPACK_IMPORTED_MODULE_9__["default"], {
-          comment: c,
-          key: c.id,
-          user: user,
-          language: language,
-          commentedText: _this12.i18n.t('commented'),
-          admin: admin,
-          replyCallback: _this12.reply(c),
-          likeCallback: c.reactions && c.reactions.viewerHasReacted ? _this12.unLike.bind(_this12, c) : _this12.like.bind(_this12, c)
         });
-      })), !totalComments.length && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("p", {
-        className: "gt-comments-null"
-      }, this.i18n.t('first-comment-person')), !isLoadOver && totalComments.length ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-comments-controls"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_button__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        className: "gt-btn-loadmore",
-        onClick: this.handleCommentLoad,
-        isLoading: isLoadMore,
-        text: this.i18n.t('load-more')
-      })) : null);
-    }
-  }, {
-    key: "meta",
-    value: function meta() {
-      var _this$state7 = this.state,
-          user = _this$state7.user,
-          issue = _this$state7.issue,
-          isPopupVisible = _this$state7.isPopupVisible,
-          pagerDirection = _this$state7.pagerDirection,
-          localComments = _this$state7.localComments;
-      var cnt = (issue && issue.comments) + localComments.length;
-      var isDesc = pagerDirection === 'last';
-      var updateCountCallback = this.options.updateCountCallback; // window.GITALK_COMMENTS_COUNT = cnt
-
-      if (updateCountCallback && {}.toString.call(updateCountCallback) === '[object Function]') {
-        try {
-          updateCountCallback(cnt);
-        } catch (err) {
-          console.log('An error occurred executing the updateCountCallback:', err);
-        }
       }
+    }, {
+      key: "unLike",
+      value: function unLike(comment) {
+        var _this10 = this;
 
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-meta",
-        key: "meta"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-counts",
-        dangerouslySetInnerHTML: {
-          __html: this.i18n.t('counts', {
-            counts: "<a class=\"gt-link gt-link-counts\" href=\"".concat(issue && issue.html_url, "\" target=\"_blank\">").concat(cnt, "</a>"),
-            smart_count: cnt
-          })
+        var user = this.state.user;
+        var comments = this.state.comments; // const {  user } = this.state
+        // let id
+        // comment.reactions.nodes.forEach(r => {
+        //   if (r.user.login = user.login) id = r.databaseId
+        // })
+        // return axiosGithub.delete(`/reactions/${id}`, {
+        //   headers: {
+        //     Authorization: `token ${this.accessToken}`,
+        //     Accept: 'application/vnd.github.squirrel-girl-preview'
+        //   }
+        // }).then(res => {
+        //   console.log('res:', res)
+        // })
+
+        var getQL = function getQL(id) {
+          return {
+            operationName: 'RemoveReaction',
+            query: "\n          mutation RemoveReaction{\n            removeReaction (input:{\n              subjectId: \"".concat(id, "\",\n              content: HEART\n            }) {\n              reaction {\n                content\n              }\n            }\n          }\n        ")
+          };
+        };
+
+        _util.axiosGithub.post('/graphql', getQL(comment.gId), {
+          headers: {
+            Authorization: "bearer ".concat(this.accessToken)
+          }
+        }).then(function (res) {
+          if (res.data) {
+            comments = comments.map(function (c) {
+              if (c.id === comment.id) {
+                var index = c.reactions.nodes.findIndex(function (n) {
+                  return n.user.login === user.login;
+                });
+
+                if (~index) {
+                  c.reactions.totalCount -= 1;
+                  c.reactions.nodes.splice(index, 1);
+                }
+
+                c.reactions.viewerHasReacted = false;
+              }
+
+              return c;
+            });
+
+            _this10.setState({
+              comments: comments
+            });
+          }
+        });
+      }
+    }, {
+      key: "initing",
+      value: function initing() {
+        return _react.default.createElement("div", {
+          className: "gt-initing"
+        }, _react.default.createElement("i", {
+          className: "gt-loader"
+        }), _react.default.createElement("p", {
+          className: "gt-initing-text"
+        }, this.i18n.t('init')));
+      }
+    }, {
+      key: "noInit",
+      value: function noInit() {
+        var _this$state4 = this.state,
+            user = _this$state4.user,
+            isIssueCreating = _this$state4.isIssueCreating;
+        var _this$options6 = this.options,
+            owner = _this$options6.owner,
+            repo = _this$options6.repo,
+            admin = _this$options6.admin;
+        return _react.default.createElement("div", {
+          className: "gt-no-init",
+          key: "no-init"
+        }, _react.default.createElement("p", {
+          dangerouslySetInnerHTML: {
+            __html: this.i18n.t('no-found-related', {
+              link: "<a href=\"https://github.com/".concat(owner, "/").concat(repo, "/issues\">Issues</a>")
+            })
+          }
+        }), _react.default.createElement("p", null, this.i18n.t('please-contact', {
+          user: [].concat(admin).map(function (u) {
+            return "@".concat(u);
+          }).join(' ')
+        })), this.isAdmin ? _react.default.createElement("p", null, _react.default.createElement(_button.default, {
+          onClick: this.handleIssueCreate,
+          isLoading: isIssueCreating,
+          text: this.i18n.t('init-issue')
+        })) : null, !user && _react.default.createElement(_button.default, {
+          className: "gt-btn-login",
+          onClick: this.handleLogin,
+          text: this.i18n.t('login-with-github')
+        }));
+      }
+    }, {
+      key: "header",
+      value: function header() {
+        var _this11 = this;
+
+        var _this$state5 = this.state,
+            user = _this$state5.user,
+            comment = _this$state5.comment,
+            isCreating = _this$state5.isCreating,
+            previewHtml = _this$state5.previewHtml,
+            isPreview = _this$state5.isPreview;
+        return _react.default.createElement("div", {
+          className: "gt-header",
+          key: "header"
+        }, user ? _react.default.createElement(_avatar.default, {
+          className: "gt-header-avatar",
+          src: user.avatar_url,
+          alt: user.login
+        }) : _react.default.createElement("a", {
+          className: "gt-avatar-github",
+          onMouseDown: this.handleLogin
+        }, _react.default.createElement(_svg.default, {
+          className: "gt-ico-github",
+          name: "github"
+        })), _react.default.createElement("div", {
+          className: "gt-header-comment"
+        }, _react.default.createElement("textarea", {
+          ref: function ref(t) {
+            _this11.commentEL = t;
+          },
+          className: "gt-header-textarea ".concat(isPreview ? 'hide' : ''),
+          value: comment,
+          onChange: this.handleCommentChange,
+          onFocus: this.handleCommentFocus,
+          onBlur: this.handleCommentBlur,
+          onKeyDown: this.handleCommentKeyDown,
+          placeholder: this.i18n.t('leave-a-comment')
+        }), _react.default.createElement("div", {
+          className: "gt-header-preview markdown-body ".concat(isPreview ? '' : 'hide'),
+          dangerouslySetInnerHTML: {
+            __html: previewHtml
+          }
+        }), _react.default.createElement("div", {
+          className: "gt-header-controls"
+        }, _react.default.createElement("a", {
+          className: "gt-header-controls-tip",
+          href: "https://guides.github.com/features/mastering-markdown/",
+          target: "_blank"
+        }, _react.default.createElement(_svg.default, {
+          className: "gt-ico-tip",
+          name: "tip",
+          text: this.i18n.t('support-markdown')
+        })), user && _react.default.createElement(_button.default, {
+          getRef: this.getRef,
+          className: "gt-btn-public",
+          onMouseDown: this.handleCommentCreate,
+          text: this.i18n.t('comment'),
+          isLoading: isCreating
+        }), _react.default.createElement(_button.default, {
+          className: "gt-btn-preview",
+          onMouseDown: this.handleCommentPreview,
+          text: isPreview ? this.i18n.t('edit') : this.i18n.t('preview') // isLoading={isPreviewing}
+
+        }), !user && _react.default.createElement(_button.default, {
+          className: "gt-btn-login",
+          onMouseDown: this.handleLogin,
+          text: this.i18n.t('login-with-github')
+        }))));
+      }
+    }, {
+      key: "comments",
+      value: function comments() {
+        var _this12 = this;
+
+        var _this$state6 = this.state,
+            user = _this$state6.user,
+            comments = _this$state6.comments,
+            isLoadOver = _this$state6.isLoadOver,
+            isLoadMore = _this$state6.isLoadMore,
+            pagerDirection = _this$state6.pagerDirection;
+        var _this$options7 = this.options,
+            language = _this$options7.language,
+            flipMoveOptions = _this$options7.flipMoveOptions,
+            admin = _this$options7.admin;
+        var totalComments = comments.concat([]);
+
+        if (pagerDirection === 'last' && this.accessToken) {
+          totalComments.reverse();
         }
-      }), isPopupVisible && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-popup"
-      }, user ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_action__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        className: "gt-action-sortasc".concat(!isDesc ? ' is--active' : ''),
-        onClick: this.handleSort('first'),
-        text: this.i18n.t('sort-asc')
-      }) : null, user ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_action__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        className: "gt-action-sortdesc".concat(isDesc ? ' is--active' : ''),
-        onClick: this.handleSort('last'),
-        text: this.i18n.t('sort-desc')
-      }) : null, user ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_action__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        className: "gt-action-logout",
-        onClick: this.handleLogout,
-        text: this.i18n.t('logout')
-      }) : react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-action gt-action-login",
-        onMouseDown: this.handleLogin
-      }, this.i18n.t('login-with-github')), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-copyright"
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("a", {
-        className: "gt-link gt-link-project",
-        href: "https://github.com/gitalk/gitalk",
-        target: "_blank"
-      }, "Gitalk"), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-version"
-      }, _const__WEBPACK_IMPORTED_MODULE_11__["GT_VERSION"]))), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-user"
-      }, user ? react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: isPopupVisible ? 'gt-user-inner is--poping' : 'gt-user-inner',
-        onClick: this.handlePopup
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-user-name"
-      }, user.login), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        className: "gt-ico-arrdown",
-        name: "arrow_down"
-      })) : react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: isPopupVisible ? 'gt-user-inner is--poping' : 'gt-user-inner',
-        onClick: this.handlePopup
-      }, react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("span", {
-        className: "gt-user-name"
-      }, this.i18n.t('anonymous')), react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_component_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        className: "gt-ico-arrdown",
-        name: "arrow_down"
-      }))));
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$state8 = this.state,
-          isIniting = _this$state8.isIniting,
-          isNoInit = _this$state8.isNoInit,
-          isOccurError = _this$state8.isOccurError,
-          errorMsg = _this$state8.errorMsg,
-          isInputFocused = _this$state8.isInputFocused;
-      return react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-container".concat(isInputFocused ? ' gt-input-focused' : '')
-      }, isIniting && this.initing(), !isIniting && (isNoInit ? [] : [this.meta()]), isOccurError && react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement("div", {
-        className: "gt-error"
-      }, errorMsg), !isIniting && (isNoInit ? [this.noInit()] : [this.header(), this.comments()]));
-    }
-  }, {
-    key: "accessToken",
-    get: function get() {
-      return this._accessToke || window.localStorage.getItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_ACCESS_TOKEN"]);
-    },
-    set: function set(token) {
-      window.localStorage.setItem(_const__WEBPACK_IMPORTED_MODULE_11__["GT_ACCESS_TOKEN"], token);
-      this._accessToken = token;
-    }
-  }, {
-    key: "loginLink",
-    get: function get() {
-      var githubOauthUrl = 'http://github.com/login/oauth/authorize';
-      var clientID = this.options.clientID;
-      var query = {
-        client_id: clientID,
-        redirect_uri: window.location.href,
-        scope: 'public_repo'
-      };
-      return "".concat(githubOauthUrl, "?").concat(Object(_util__WEBPACK_IMPORTED_MODULE_5__["queryStringify"])(query));
-    }
-  }, {
-    key: "isAdmin",
-    get: function get() {
-      var admin = this.options.admin;
-      var user = this.state.user;
-      return user && ~[].concat(admin).map(function (a) {
-        return a.toLowerCase();
-      }).indexOf(user.login.toLowerCase());
-    }
-  }]);
 
-  return GitalkComponent;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+        return _react.default.createElement("div", {
+          className: "gt-comments",
+          key: "comments"
+        }, _react.default.createElement(_reactFlipMove.default, flipMoveOptions, totalComments.map(function (c) {
+          return _react.default.createElement(_comment.default, {
+            comment: c,
+            key: c.id,
+            user: user,
+            language: language,
+            commentedText: _this12.i18n.t('commented'),
+            admin: admin,
+            replyCallback: _this12.reply(c),
+            likeCallback: c.reactions && c.reactions.viewerHasReacted ? _this12.unLike.bind(_this12, c) : _this12.like.bind(_this12, c)
+          });
+        })), !totalComments.length && _react.default.createElement("p", {
+          className: "gt-comments-null"
+        }, this.i18n.t('first-comment-person')), !isLoadOver && totalComments.length ? _react.default.createElement("div", {
+          className: "gt-comments-controls"
+        }, _react.default.createElement(_button.default, {
+          className: "gt-btn-loadmore",
+          onClick: this.handleCommentLoad,
+          isLoading: isLoadMore,
+          text: this.i18n.t('load-more')
+        })) : null);
+      }
+    }, {
+      key: "meta",
+      value: function meta() {
+        var _this$state7 = this.state,
+            user = _this$state7.user,
+            issue = _this$state7.issue,
+            isPopupVisible = _this$state7.isPopupVisible,
+            pagerDirection = _this$state7.pagerDirection,
+            localComments = _this$state7.localComments;
+        var cnt = (issue && issue.comments) + localComments.length;
+        var isDesc = pagerDirection === 'last';
+        var updateCountCallback = this.options.updateCountCallback; // window.GITALK_COMMENTS_COUNT = cnt
 
-/* harmony default export */ __webpack_exports__["default"] = (GitalkComponent);
+        if (updateCountCallback && {}.toString.call(updateCountCallback) === '[object Function]') {
+          try {
+            updateCountCallback(cnt);
+          } catch (err) {
+            console.log('An error occurred executing the updateCountCallback:', err);
+          }
+        }
+
+        return _react.default.createElement("div", {
+          className: "gt-meta",
+          key: "meta"
+        }, _react.default.createElement("span", {
+          className: "gt-counts",
+          dangerouslySetInnerHTML: {
+            __html: this.i18n.t('counts', {
+              counts: "<a class=\"gt-link gt-link-counts\" href=\"".concat(issue && issue.html_url, "\" target=\"_blank\">").concat(cnt, "</a>"),
+              smart_count: cnt
+            })
+          }
+        }), isPopupVisible && _react.default.createElement("div", {
+          className: "gt-popup"
+        }, user ? _react.default.createElement(_action.default, {
+          className: "gt-action-sortasc".concat(!isDesc ? ' is--active' : ''),
+          onClick: this.handleSort('first'),
+          text: this.i18n.t('sort-asc')
+        }) : null, user ? _react.default.createElement(_action.default, {
+          className: "gt-action-sortdesc".concat(isDesc ? ' is--active' : ''),
+          onClick: this.handleSort('last'),
+          text: this.i18n.t('sort-desc')
+        }) : null, user ? _react.default.createElement(_action.default, {
+          className: "gt-action-logout",
+          onClick: this.handleLogout,
+          text: this.i18n.t('logout')
+        }) : _react.default.createElement("a", {
+          className: "gt-action gt-action-login",
+          onMouseDown: this.handleLogin
+        }, this.i18n.t('login-with-github')), _react.default.createElement("div", {
+          className: "gt-copyright"
+        }, _react.default.createElement("a", {
+          className: "gt-link gt-link-project",
+          href: "https://github.com/gitalk/gitalk",
+          target: "_blank"
+        }, "Gitalk"), _react.default.createElement("span", {
+          className: "gt-version"
+        }, _const.GT_VERSION))), _react.default.createElement("div", {
+          className: "gt-user"
+        }, user ? _react.default.createElement("div", {
+          className: isPopupVisible ? 'gt-user-inner is--poping' : 'gt-user-inner',
+          onClick: this.handlePopup
+        }, _react.default.createElement("span", {
+          className: "gt-user-name"
+        }, user.login), _react.default.createElement(_svg.default, {
+          className: "gt-ico-arrdown",
+          name: "arrow_down"
+        })) : _react.default.createElement("div", {
+          className: isPopupVisible ? 'gt-user-inner is--poping' : 'gt-user-inner',
+          onClick: this.handlePopup
+        }, _react.default.createElement("span", {
+          className: "gt-user-name"
+        }, this.i18n.t('anonymous')), _react.default.createElement(_svg.default, {
+          className: "gt-ico-arrdown",
+          name: "arrow_down"
+        }))));
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        var _this$state8 = this.state,
+            isIniting = _this$state8.isIniting,
+            isNoInit = _this$state8.isNoInit,
+            isOccurError = _this$state8.isOccurError,
+            errorMsg = _this$state8.errorMsg,
+            isInputFocused = _this$state8.isInputFocused;
+        return _react.default.createElement("div", {
+          className: "gt-container".concat(isInputFocused ? ' gt-input-focused' : '')
+        }, isIniting && this.initing(), !isIniting && (isNoInit ? [] : [this.meta()]), isOccurError && _react.default.createElement("div", {
+          className: "gt-error"
+        }, errorMsg), !isIniting && (isNoInit ? [this.noInit()] : [this.header(), this.comments()]));
+      }
+    }, {
+      key: "accessToken",
+      get: function get() {
+        return this._accessToke || window.localStorage.getItem(_const.GT_ACCESS_TOKEN);
+      },
+      set: function set(token) {
+        window.localStorage.setItem(_const.GT_ACCESS_TOKEN, token);
+        this._accessToken = token;
+      }
+    }, {
+      key: "loginLink",
+      get: function get() {
+        var githubOauthUrl = 'http://github.com/login/oauth/authorize';
+        var clientID = this.options.clientID;
+        var query = {
+          client_id: clientID,
+          redirect_uri: window.location.href,
+          scope: 'public_repo'
+        };
+        return "".concat(githubOauthUrl, "?").concat((0, _util.queryStringify)(query));
+      }
+    }, {
+      key: "isAdmin",
+      get: function get() {
+        var admin = this.options.admin;
+        var user = this.state.user;
+        return user && ~[].concat(admin).map(function (a) {
+          return a.toLowerCase();
+        }).indexOf(user.login.toLowerCase());
+      }
+    }]);
+
+    return GitalkComponent;
+  }(_react.Component);
+
+  var _default = GitalkComponent;
+  _exports.default = _default;
+  module.exports = exports.default;
+});
 
 /***/ }),
 
@@ -13256,95 +13343,108 @@ function (_Component) {
 /*!************************************!*\
   !*** ./src/graphql/getComments.js ***!
   \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util */ "./src/util.js");
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! ../util */ "./src/util.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _util) {
+  "use strict";
 
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
-
-function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
-
-
-
-var getQL = function getQL(vars, pagerDirection) {
-  var cursorDirection = pagerDirection === 'last' ? 'before' : 'after';
-  var ql = "\n  query getIssueAndComments(\n    $owner: String!,\n    $repo: String!,\n    $id: Int!,\n    $cursor: String,\n    $pageSize: Int!\n  ) {\n    repository(owner: $owner, name: $repo) {\n      issue(number: $id) {\n        title\n        url\n        bodyHTML\n        createdAt\n        comments(".concat(pagerDirection, ": $pageSize, ").concat(cursorDirection, ": $cursor) {\n          totalCount\n          pageInfo {\n            ").concat(pagerDirection === 'last' ? 'hasPreviousPage' : 'hasNextPage', "\n            ").concat(cursorDirection === 'before' ? 'startCursor' : 'endCursor', "\n          }\n          nodes {\n            id\n            databaseId\n            author {\n              avatarUrl\n              login\n              url\n            }\n            bodyHTML\n            body\n            createdAt\n            reactions(first: 100, content: HEART) {\n              totalCount\n              viewerHasReacted\n              pageInfo{\n                hasNextPage\n              }\n              nodes {\n                id\n                databaseId\n                user {\n                  login\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  ");
-  if (vars.cursor === null) delete vars.cursor;
-  return {
-    operationName: 'getIssueAndComments',
-    query: ql,
-    variables: vars
-  };
-};
-
-function getComments(issue) {
-  var _this = this;
-
-  var _this$options = this.options,
-      owner = _this$options.owner,
-      repo = _this$options.repo,
-      perPage = _this$options.perPage,
-      pagerDirection = _this$options.pagerDirection,
-      defaultAuthor = _this$options.defaultAuthor;
-  var _this$state = this.state,
-      cursor = _this$state.cursor,
-      comments = _this$state.comments;
-  return _util__WEBPACK_IMPORTED_MODULE_0__["axiosGithub"].post('/graphql', getQL({
-    owner: owner,
-    repo: repo,
-    id: issue.number,
-    pageSize: perPage,
-    cursor: cursor
-  }, pagerDirection), {
-    headers: {
-      Authorization: "bearer ".concat(this.accessToken)
-    }
-  }).then(function (res) {
-    var data = res.data.data.repository.issue.comments;
-    var items = data.nodes.map(function (node) {
-      var author = node.author || defaultAuthor;
-      return {
-        id: node.databaseId,
-        gId: node.id,
-        user: {
-          avatar_url: author.avatarUrl,
-          login: author.login,
-          html_url: author.url
-        },
-        created_at: node.createdAt,
-        body_html: node.bodyHTML,
-        body: node.body,
-        html_url: "https://github.com/".concat(owner, "/").concat(repo, "/issues/").concat(issue.number, "#issuecomment-").concat(node.databaseId),
-        reactions: node.reactions
-      };
-    });
-    var cs;
-
-    if (pagerDirection === 'last') {
-      cs = [].concat(_toConsumableArray(items), _toConsumableArray(comments));
-    } else {
-      cs = [].concat(_toConsumableArray(comments), _toConsumableArray(items));
-    }
-
-    var isLoadOver = data.pageInfo.hasPreviousPage === false || data.pageInfo.hasNextPage === false;
-
-    _this.setState({
-      comments: cs,
-      isLoadOver: isLoadOver,
-      cursor: data.pageInfo.startCursor || data.pageInfo.endCursor
-    });
-
-    return cs;
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
   });
-}
+  _exports.default = void 0;
 
-/* harmony default export */ __webpack_exports__["default"] = (getComments);
+  function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+  function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+  function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+  function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+  var getQL = function getQL(vars, pagerDirection) {
+    var cursorDirection = pagerDirection === 'last' ? 'before' : 'after';
+    var ql = "\n  query getIssueAndComments(\n    $owner: String!,\n    $repo: String!,\n    $id: Int!,\n    $cursor: String,\n    $pageSize: Int!\n  ) {\n    repository(owner: $owner, name: $repo) {\n      issue(number: $id) {\n        title\n        url\n        bodyHTML\n        createdAt\n        comments(".concat(pagerDirection, ": $pageSize, ").concat(cursorDirection, ": $cursor) {\n          totalCount\n          pageInfo {\n            ").concat(pagerDirection === 'last' ? 'hasPreviousPage' : 'hasNextPage', "\n            ").concat(cursorDirection === 'before' ? 'startCursor' : 'endCursor', "\n          }\n          nodes {\n            id\n            databaseId\n            author {\n              avatarUrl\n              login\n              url\n            }\n            bodyHTML\n            body\n            createdAt\n            reactions(first: 100, content: HEART) {\n              totalCount\n              viewerHasReacted\n              pageInfo{\n                hasNextPage\n              }\n              nodes {\n                id\n                databaseId\n                user {\n                  login\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  ");
+    if (vars.cursor === null) delete vars.cursor;
+    return {
+      operationName: 'getIssueAndComments',
+      query: ql,
+      variables: vars
+    };
+  };
+
+  function getComments(issue) {
+    var _this = this;
+
+    var _this$options = this.options,
+        owner = _this$options.owner,
+        repo = _this$options.repo,
+        perPage = _this$options.perPage,
+        pagerDirection = _this$options.pagerDirection,
+        defaultAuthor = _this$options.defaultAuthor;
+    var _this$state = this.state,
+        cursor = _this$state.cursor,
+        comments = _this$state.comments;
+    return _util.axiosGithub.post('/graphql', getQL({
+      owner: owner,
+      repo: repo,
+      id: issue.number,
+      pageSize: perPage,
+      cursor: cursor
+    }, pagerDirection), {
+      headers: {
+        Authorization: "bearer ".concat(this.accessToken)
+      }
+    }).then(function (res) {
+      var data = res.data.data.repository.issue.comments;
+      var items = data.nodes.map(function (node) {
+        var author = node.author || defaultAuthor;
+        return {
+          id: node.databaseId,
+          gId: node.id,
+          user: {
+            avatar_url: author.avatarUrl,
+            login: author.login,
+            html_url: author.url
+          },
+          created_at: node.createdAt,
+          body_html: node.bodyHTML,
+          body: node.body,
+          html_url: "https://github.com/".concat(owner, "/").concat(repo, "/issues/").concat(issue.number, "#issuecomment-").concat(node.databaseId),
+          reactions: node.reactions
+        };
+      });
+      var cs;
+
+      if (pagerDirection === 'last') {
+        cs = [].concat(_toConsumableArray(items), _toConsumableArray(comments));
+      } else {
+        cs = [].concat(_toConsumableArray(comments), _toConsumableArray(items));
+      }
+
+      var isLoadOver = data.pageInfo.hasPreviousPage === false || data.pageInfo.hasNextPage === false;
+
+      _this.setState({
+        comments: cs,
+        isLoadOver: isLoadOver,
+        cursor: data.pageInfo.startCursor || data.pageInfo.endCursor
+      });
+
+      return cs;
+    });
+  }
+
+  var _default = getComments;
+  _exports.default = _default;
+  module.exports = exports.default;
+});
 
 /***/ }),
 
@@ -13385,46 +13485,51 @@ module.exports = JSON.parse("{\"init\":\"Gitalking ...\",\"no-found-related\":\"
 /*!***************************!*\
   !*** ./src/i18n/index.js ***!
   \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var node_polyglot__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! node-polyglot */ "./node_modules/node-polyglot/index.js");
-/* harmony import */ var node_polyglot__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(node_polyglot__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _zh_CN_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./zh-CN.json */ "./src/i18n/zh-CN.json");
-var _zh_CN_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./zh-CN.json */ "./src/i18n/zh-CN.json", 1);
-/* harmony import */ var _zh_TW_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./zh-TW.json */ "./src/i18n/zh-TW.json");
-var _zh_TW_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./zh-TW.json */ "./src/i18n/zh-TW.json", 1);
-/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./en.json */ "./src/i18n/en.json");
-var _en_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ "./src/i18n/en.json", 1);
-/* harmony import */ var _es_ES_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./es-ES.json */ "./src/i18n/es-ES.json");
-var _es_ES_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./es-ES.json */ "./src/i18n/es-ES.json", 1);
-/* harmony import */ var _fr_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fr.json */ "./src/i18n/fr.json");
-var _fr_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fr.json */ "./src/i18n/fr.json", 1);
-/* harmony import */ var _ru_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ru.json */ "./src/i18n/ru.json");
-var _ru_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru.json */ "./src/i18n/ru.json", 1);
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! node-polyglot */ "./node_modules/node-polyglot/index.js"), __webpack_require__(/*! ./zh-CN.json */ "./src/i18n/zh-CN.json"), __webpack_require__(/*! ./zh-TW.json */ "./src/i18n/zh-TW.json"), __webpack_require__(/*! ./en.json */ "./src/i18n/en.json"), __webpack_require__(/*! ./es-ES.json */ "./src/i18n/es-ES.json"), __webpack_require__(/*! ./fr.json */ "./src/i18n/fr.json"), __webpack_require__(/*! ./ru.json */ "./src/i18n/ru.json")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _nodePolyglot, _zhCN, _zhTW, _en, _esES, _fr, _ru) {
+  "use strict";
 
-
-
-
-
-
-
-var i18nMap = {
-  'zh': _zh_CN_json__WEBPACK_IMPORTED_MODULE_1__,
-  'zh-CN': _zh_CN_json__WEBPACK_IMPORTED_MODULE_1__,
-  'zh-TW': _zh_TW_json__WEBPACK_IMPORTED_MODULE_2__,
-  'en': _en_json__WEBPACK_IMPORTED_MODULE_3__,
-  'es-ES': _es_ES_json__WEBPACK_IMPORTED_MODULE_4__,
-  'fr': _fr_json__WEBPACK_IMPORTED_MODULE_5__,
-  'ru': _ru_json__WEBPACK_IMPORTED_MODULE_6__
-};
-/* harmony default export */ __webpack_exports__["default"] = (function (language) {
-  return new node_polyglot__WEBPACK_IMPORTED_MODULE_0___default.a({
-    phrases: i18nMap[language] || i18nMap.en,
-    locale: language
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
   });
+  _exports.default = _default;
+  _nodePolyglot = _interopRequireDefault(_nodePolyglot);
+  _zhCN = _interopRequireDefault(_zhCN);
+  _zhTW = _interopRequireDefault(_zhTW);
+  _en = _interopRequireDefault(_en);
+  _esES = _interopRequireDefault(_esES);
+  _fr = _interopRequireDefault(_fr);
+  _ru = _interopRequireDefault(_ru);
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  var i18nMap = {
+    'zh': _zhCN.default,
+    'zh-CN': _zhCN.default,
+    'zh-TW': _zhTW.default,
+    'en': _en.default,
+    'es-ES': _esES.default,
+    'fr': _fr.default,
+    'ru': _ru.default
+  };
+
+  function _default(language) {
+    return new _nodePolyglot.default({
+      phrases: i18nMap[language] || i18nMap.en,
+      locale: language
+    });
+  }
+
+  module.exports = exports.default;
 });
 
 /***/ }),
@@ -13466,66 +13571,75 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Gitalk; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js");
-/* harmony import */ var es6_promise_auto__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! es6-promise/auto */ "./node_modules/es6-promise/auto.js");
-/* harmony import */ var es6_promise_auto__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(es6_promise_auto__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _gitalk__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./gitalk */ "./src/gitalk.jsx");
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ "./node_modules/preact-compat/dist/preact-compat.es.js"), __webpack_require__(/*! react-dom */ "./node_modules/preact-compat/dist/preact-compat.es.js"), __webpack_require__(/*! es6-promise/auto */ "./node_modules/es6-promise/auto.js"), __webpack_require__(/*! ./gitalk */ "./src/gitalk.jsx")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _react, _reactDom, _auto, _gitalk) {
+  "use strict";
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  _react = _interopRequireDefault(_react);
+  _gitalk = _interopRequireDefault(_gitalk);
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+  var Gitalk =
+  /*#__PURE__*/
+  function () {
+    function Gitalk() {
+      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
+      _classCallCheck(this, Gitalk);
 
-var Gitalk =
-/*#__PURE__*/
-function () {
-  function Gitalk() {
-    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-    _classCallCheck(this, Gitalk);
-
-    this.options = options;
-  }
-
-  _createClass(Gitalk, [{
-    key: "render",
-    value: function render(container, callback) {
-      var node = null;
-      container = container || this.options.container;
-      if (!container) throw new Error("Container is required: ".concat(container));
-
-      if (!(container instanceof HTMLElement)) {
-        node = window.document.getElementById(container);
-        if (!node) throw new Error("Container not found, window.document.getElementById: ".concat(container));
-      } else {
-        node = container;
-      }
-
-      if (!callback) {
-        callback = function callback() {};
-      }
-
-      return Object(react__WEBPACK_IMPORTED_MODULE_0__["render"])(react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(_gitalk__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        options: this.options
-      }), node, callback);
+      this.options = options;
     }
-  }]);
 
-  return Gitalk;
-}();
+    _createClass(Gitalk, [{
+      key: "render",
+      value: function render(container, callback) {
+        var node = null;
+        container = container || this.options.container;
+        if (!container) throw new Error("Container is required: ".concat(container));
 
+        if (!(container instanceof HTMLElement)) {
+          node = window.document.getElementById(container);
+          if (!node) throw new Error("Container not found, window.document.getElementById: ".concat(container));
+        } else {
+          node = container;
+        }
 
+        if (!callback) {
+          callback = function callback() {};
+        }
+
+        return (0, _reactDom.render)(_react.default.createElement(_gitalk.default, {
+          options: this.options
+        }), node, callback);
+      }
+    }]);
+
+    return Gitalk;
+  }();
+
+  _exports.default = Gitalk;
+  module.exports = exports.default;
+});
 
 /***/ }),
 
@@ -13544,113 +13658,140 @@ function () {
 /*!*********************!*\
   !*** ./src/util.js ***!
   \*********************/
-/*! exports provided: queryParse, queryStringify, axiosJSON, axiosGithub, getMetaContent, formatErrorMsg, hasClassInParent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "queryParse", function() { return queryParse; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "queryStringify", function() { return queryStringify; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosJSON", function() { return axiosJSON; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosGithub", function() { return axiosGithub; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getMetaContent", function() { return getMetaContent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatErrorMsg", function() { return formatErrorMsg; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hasClassInParent", function() { return hasClassInParent; });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! axios */ "./node_modules/axios/index.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else { var mod; }
+})(this, function (_exports, _axios) {
+  "use strict";
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-var queryParse = function queryParse() {
-  var search = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.search;
-  if (!search) return {};
-  var queryString = search[0] === '?' ? search.substring(1) : search;
-  var query = {};
-  queryString.split('&').forEach(function (queryStr) {
-    var _queryStr$split = queryStr.split('='),
-        _queryStr$split2 = _slicedToArray(_queryStr$split, 2),
-        key = _queryStr$split2[0],
-        value = _queryStr$split2[1];
-    /* istanbul ignore else */
-
-
-    if (key) query[decodeURIComponent(key)] = decodeURIComponent(value);
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
   });
-  return query;
-};
-var queryStringify = function queryStringify(query) {
-  var queryString = Object.keys(query).map(function (key) {
-    return "".concat(key, "=").concat(encodeURIComponent(query[key] || ''));
-  }).join('&');
-  return queryString;
-};
-var axiosJSON = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
-  headers: {
-    'Accept': 'application/json'
-  }
-});
-var axiosGithub = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
-  baseURL: 'https://api.github.com',
-  headers: {
-    'Accept': 'application/json'
-  }
-});
-var getMetaContent = function getMetaContent(name, content) {
-  /* istanbul ignore next */
-  content || (content = 'content');
-  /* istanbul ignore next */
+  _exports.hasClassInParent = _exports.formatErrorMsg = _exports.getMetaContent = _exports.axiosGithub = _exports.axiosJSON = _exports.queryStringify = _exports.queryParse = void 0;
+  _axios = _interopRequireDefault(_axios);
 
-  var el = window.document.querySelector("meta[name='".concat(name, "']"));
-  /* istanbul ignore next */
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-  return el && el.getAttribute(content);
-};
-var formatErrorMsg = function formatErrorMsg(err) {
-  var msg = 'Error: ';
+  function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
-  if (err.response && err.response.data && err.response.data.message) {
-    msg += "".concat(err.response.data.message, ". ");
-    err.response.data.errors && (msg += err.response.data.errors.map(function (e) {
-      return e.message;
-    }).join(', '));
-  } else {
-    msg += err.message;
-  }
+  function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
 
-  return msg;
-};
-var hasClassInParent = function hasClassInParent(element) {
-  /* istanbul ignore next */
-  var yes = false;
-  /* istanbul ignore next */
+  function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
-  if (typeof element.className === 'undefined') return false;
-  /* istanbul ignore next */
+  function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-  var classes = element.className.split(' ');
-  /* istanbul ignore next */
+  var queryParse = function queryParse() {
+    var search = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.search;
+    if (!search) return {};
+    var queryString = search[0] === '?' ? search.substring(1) : search;
+    var query = {};
+    queryString.split('&').forEach(function (queryStr) {
+      var _queryStr$split = queryStr.split('='),
+          _queryStr$split2 = _slicedToArray(_queryStr$split, 2),
+          key = _queryStr$split2[0],
+          value = _queryStr$split2[1];
+      /* istanbul ignore else */
 
-  for (var _len = arguments.length, className = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    className[_key - 1] = arguments[_key];
-  }
 
-  className.forEach(function (c, i) {
+      if (key) query[decodeURIComponent(key)] = decodeURIComponent(value);
+    });
+    return query;
+  };
+
+  _exports.queryParse = queryParse;
+
+  var queryStringify = function queryStringify(query) {
+    var queryString = Object.keys(query).map(function (key) {
+      return "".concat(key, "=").concat(encodeURIComponent(query[key] || ''));
+    }).join('&');
+    return queryString;
+  };
+
+  _exports.queryStringify = queryStringify;
+
+  var axiosJSON = _axios.default.create({
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+
+  _exports.axiosJSON = axiosJSON;
+
+  var axiosGithub = _axios.default.create({
+    baseURL: 'https://api.github.com',
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+
+  _exports.axiosGithub = axiosGithub;
+
+  var getMetaContent = function getMetaContent(name, content) {
     /* istanbul ignore next */
-    yes = yes || classes.indexOf(c) >= 0;
-  });
-  /* istanbul ignore next */
+    content || (content = 'content');
+    /* istanbul ignore next */
 
-  if (yes) return yes;
-  /* istanbul ignore next */
+    var el = window.document.querySelector("meta[name='".concat(name, "']"));
+    /* istanbul ignore next */
 
-  return element.parentNode && hasClassInParent(element.parentNode, className);
-};
+    return el && el.getAttribute(content);
+  };
+
+  _exports.getMetaContent = getMetaContent;
+
+  var formatErrorMsg = function formatErrorMsg(err) {
+    var msg = 'Error: ';
+
+    if (err.response && err.response.data && err.response.data.message) {
+      msg += "".concat(err.response.data.message, ". ");
+      err.response.data.errors && (msg += err.response.data.errors.map(function (e) {
+        return e.message;
+      }).join(', '));
+    } else {
+      msg += err.message;
+    }
+
+    return msg;
+  };
+
+  _exports.formatErrorMsg = formatErrorMsg;
+
+  var hasClassInParent = function hasClassInParent(element) {
+    /* istanbul ignore next */
+    var yes = false;
+    /* istanbul ignore next */
+
+    if (typeof element.className === 'undefined') return false;
+    /* istanbul ignore next */
+
+    var classes = element.className.split(' ');
+    /* istanbul ignore next */
+
+    for (var _len = arguments.length, className = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      className[_key - 1] = arguments[_key];
+    }
+
+    className.forEach(function (c, i) {
+      /* istanbul ignore next */
+      yes = yes || classes.indexOf(c) >= 0;
+    });
+    /* istanbul ignore next */
+
+    if (yes) return yes;
+    /* istanbul ignore next */
+
+    return element.parentNode && hasClassInParent(element.parentNode, className);
+  };
+
+  _exports.hasClassInParent = hasClassInParent;
+});
 
 /***/ })
 
