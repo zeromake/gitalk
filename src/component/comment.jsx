@@ -110,6 +110,7 @@ export default class Comment extends Component {
                 href={comment.html_url}
                 className="gt-comment-edit"
                 title="Edit"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <Svg className="gt-ico-edit" name="edit" />

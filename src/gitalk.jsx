@@ -691,7 +691,7 @@ class GitalkComponent extends Component {
       <div className="gt-meta" key="meta" >
         <span className="gt-counts" dangerouslySetInnerHTML={{
           __html: this.i18n.t('counts', {
-            counts: `<a class="gt-link gt-link-counts" href="${issue && issue.html_url}" target="_blank">${cnt}</a>`,
+            counts: `<a class="gt-link gt-link-counts" rel="noopener noreferrer" href="${issue && issue.html_url}" target="_blank">${cnt}</a>`,
             smart_count: cnt
           })
         }}/>
