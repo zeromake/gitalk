@@ -12,7 +12,8 @@ Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。
 - 无干扰模式（设置 distractionFreeMode 为 true 开启）
 - 快捷键提交评论 （cmd|ctrl + enter）
 
-[Readme](README.md)
+[Readme](/)
+[中文說明](README-zh-TW.md)
 [在线示例](https://gitalk.github.io)
 
 ## 安装
