@@ -22,33 +22,33 @@ import { GT_ACCESS_TOKEN, GT_VERSION, GT_COMMENT } from './const'
 import QLGetComments from './graphql/getComments'
 
 class GitalkComponent extends Component {
-  state = {
-    user: null,
-    issue: null,
-    comments: [],
-    localComments: [],
-    comment: '',
-    page: 1,
-    pagerDirection: 'last',
-    cursor: null,
-    previewHtml: '',
-
-    isNoInit: false,
-    isIniting: true,
-    isCreating: false,
-    isLoading: false,
-    isLoadMore: false,
-    isLoadOver: false,
-    isIssueCreating: false,
-    isPopupVisible: false,
-    isInputFocused: false,
-    isPreview: false,
-
-    isOccurError: false,
-    errorMsg: '',
-  }
   constructor (props) {
     super(props)
+    this.state = {
+      user: null,
+      issue: null,
+      comments: [],
+      localComments: [],
+      comment: '',
+      page: 1,
+      pagerDirection: 'last',
+      cursor: null,
+      previewHtml: '',
+
+      isNoInit: false,
+      isIniting: true,
+      isCreating: false,
+      isLoading: false,
+      isLoadMore: false,
+      isLoadOver: false,
+      isIssueCreating: false,
+      isPopupVisible: false,
+      isInputFocused: false,
+      isPreview: false,
+
+      isOccurError: false,
+      errorMsg: '',
+    }
     this.options = Object.assign({}, {
       id: window.location.href,
       number: -1,
@@ -616,7 +616,7 @@ class GitalkComponent extends Component {
             dangerouslySetInnerHTML={{ __html: previewHtml }}
           />
           <div className="gt-header-controls">
-            <a className="gt-header-controls-tip" href="https://guides.github.com/features/mastering-markdown/" target="_blank">
+            <a className="gt-header-controls-tip" rel="noopener noreferrer" href="https://guides.github.com/features/mastering-markdown/" target="_blank">
               <Svg className="gt-ico-tip" name="tip" text={this.i18n.t('support-markdown')}/>
             </a>
             {user && <Button
@@ -704,7 +704,7 @@ class GitalkComponent extends Component {
               <a className="gt-action gt-action-login" onMouseDown={this.handleLogin}>{this.i18n.t('login-with-github')}</a>
             }
             <div className="gt-copyright">
-              <a className="gt-link gt-link-project" href="https://github.com/gitalk/gitalk" target="_blank">Gitalk</a>
+              <a className="gt-link gt-link-project" href="https://github.com/gitalk/gitalk" rel="noopener noreferrer" target="_blank">Gitalk</a>
               <span className="gt-version">{GT_VERSION}</span>
             </div>
           </div>

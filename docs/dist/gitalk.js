@@ -12366,30 +12366,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
       _this = _possibleConstructorReturn(this, _getPrototypeOf(GitalkComponent).call(this, props));
 
-      _defineProperty(_assertThisInitialized(_this), "state", {
-        user: null,
-        issue: null,
-        comments: [],
-        localComments: [],
-        comment: '',
-        page: 1,
-        pagerDirection: 'last',
-        cursor: null,
-        previewHtml: '',
-        isNoInit: false,
-        isIniting: true,
-        isCreating: false,
-        isLoading: false,
-        isLoadMore: false,
-        isLoadOver: false,
-        isIssueCreating: false,
-        isPopupVisible: false,
-        isInputFocused: false,
-        isPreview: false,
-        isOccurError: false,
-        errorMsg: ''
-      });
-
       _defineProperty(_assertThisInitialized(_this), "getCommentsV3", function (issue) {
         var _this$options = _this.options,
             clientID = _this$options.clientID,
@@ -12627,6 +12603,29 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         }
       });
 
+      _this.state = {
+        user: null,
+        issue: null,
+        comments: [],
+        localComments: [],
+        comment: '',
+        page: 1,
+        pagerDirection: 'last',
+        cursor: null,
+        previewHtml: '',
+        isNoInit: false,
+        isIniting: true,
+        isCreating: false,
+        isLoading: false,
+        isLoadMore: false,
+        isLoadOver: false,
+        isIssueCreating: false,
+        isPopupVisible: false,
+        isInputFocused: false,
+        isPreview: false,
+        isOccurError: false,
+        errorMsg: ''
+      };
       _this.options = Object.assign({}, {
         id: window.location.href,
         number: -1,
@@ -13136,6 +13135,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           className: "gt-header-controls"
         }, _react.default.createElement("a", {
           className: "gt-header-controls-tip",
+          rel: "noopener noreferrer",
           href: "https://guides.github.com/features/mastering-markdown/",
           target: "_blank"
         }, _react.default.createElement(_svg.default, {
@@ -13259,6 +13259,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         }, _react.default.createElement("a", {
           className: "gt-link gt-link-project",
           href: "https://github.com/gitalk/gitalk",
+          rel: "noopener noreferrer",
           target: "_blank"
         }, "Gitalk"), _react.default.createElement("span", {
           className: "gt-version"
