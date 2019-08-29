@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>@zeromake/gitalk - A comment plugin base on GitHub issues</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A comment plugin base on GitHub issues">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/docsify/4.9.4/themes/vue.css">
+  <link rel="stylesheet" href="/dist/gitalk.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="gitalk-container"></div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/docsify/4.9.4/docsify.min.js"></script>
+  <script src="/dist/gitalk.js"></script>
+  <script>
+    function render() {
+      const hashRegExp = /#(.*?)([?]|$)/;
+      const id = location.hash.match(hashRegExp)[1];
+      const gitalk = new Gitalk.default({
+        owner: 'zeromake',
+        repo: 'gitalk',
+        clientID: '6f4e103c0af2b0629e01',
+        clientSecret: '22f0c21510acbdda03c9067ee3aa2aee0c805c9f',
+        admin: ['zeromake'],
+        labels: ['gitment'],
+        title: id,
+        id,
+      });
+      gitalk.render('gitalk-container')
+    }
+    function install(hook) {
+      const dom = Docsify.dom
+
+      hook.mounted(_ => {
+        const div = dom.create('div')
+        div.id = 'gitalk-container'
+        const main = dom.getNode('#main')
+        div.style = `width: ${main.clientWidth}px; margin: 0 auto 20px;`
+        dom.appendTo(dom.find('.content'), div)
+      })
+
+      hook.doneEach(_ => {
+        const el = document.getElementById('gitalk-container')
+        while (el.hasChildNodes()) {
+          el.removeChild(el.firstChild)
+        }
+        render();
+      })
+    }
+    window.$docsify = {
+      name: '@zeromake/gitalk',
+      repo: '',
+      plugins: [install],
+    };
+
+  </script>
+</body>
+
+</html>

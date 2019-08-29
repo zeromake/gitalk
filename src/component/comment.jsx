@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import Avatar from './avatar'
 import Svg from './svg'
-import distanceInWordsToNow from 'date-fns/distance_in_words_to_now'
-import buildDistanceInWordsLocaleZHCN from 'date-fns/locale/zh_cn/build_distance_in_words_locale/index'
-import buildDistanceInWordsLocaleZHTW from 'date-fns/locale/zh_tw/build_distance_in_words_locale/index'
-import buildDistanceInWordsLocaleES from 'date-fns/locale/es/build_distance_in_words_locale/index'
-import buildDistanceInWordsLocaleFR from 'date-fns/locale/fr/build_distance_in_words_locale/index'
-import buildDistanceInWordsLocaleRU from 'date-fns/locale/ru/build_distance_in_words_locale/index'
+import formatDistanceToNow from 'date-fns/formatDistanceToNow'
+import ZHCN from 'date-fns/locale/zh-CN/_lib/formatDistance/index'
+import ZHTW from 'date-fns/locale/zh-TW/_lib/formatDistance/index'
+import ES from 'date-fns/locale/es/_lib/formatDistance/index'
+import FR from 'date-fns/locale/fr/_lib/formatDistance/index'
+import RU from 'date-fns/locale/ru/_lib/formatDistance/index'
+import parseISO from 'date-fns/parseISO/index'
 import 'github-markdown-css/github-markdown.css'
 
-const ZHCN = buildDistanceInWordsLocaleZHCN()
-const ZHTW = buildDistanceInWordsLocaleZHTW()
-const ES = buildDistanceInWordsLocaleES()
-const FR = buildDistanceInWordsLocaleFR()
-const RU = buildDistanceInWordsLocaleRU()
+// const ZHCN = buildDistanceInWordsLocaleZHCN()
+// const ZHTW = buildDistanceInWordsLocaleZHTW()
+// const ES = buildDistanceInWordsLocaleES()
+// const FR = buildDistanceInWordsLocaleFR()
+// const RU = buildDistanceInWordsLocaleRU()
 
 if (typeof window !== `undefined`) {
   window.GT_i18n_distanceInWordsLocaleMap = {
@@ -56,6 +57,8 @@ export default class Comment extends Component {
         reactionTotalCount = '100+'
       }
     }
+    const LocaleMap = window.GT_i18n_distanceInWordsLocaleMap;
+    const formatDistance = (language && LocaleMap) && LocaleMap[language];
 
     return (
       <div className={`gt-comment ${isAdmin ? 'gt-comment-admin' : ''}`}>
@@ -76,12 +79,11 @@ export default class Comment extends Component {
             </a>
             <span className="gt-comment-text">{commentedText}</span>
             <span className="gt-comment-date">
-              {distanceInWordsToNow(comment.created_at, {
+              {formatDistanceToNow(parseISO(comment.created_at), {
                 addSuffix: true,
-                locale: {
-                  distanceInWords:
-                    window.GT_i18n_distanceInWordsLocaleMap[language]
-                }
+                locale: formatDistance ? {
+                  formatDistance,
+                } : null,
               })}
             </span>
 

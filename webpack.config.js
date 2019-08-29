@@ -1,10 +1,25 @@
 const path = require('path')
 const webpack = require('webpack')
 const autoprefixer = require('autoprefixer')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const ENV = process.env.NODE_ENV || 'development'
 const isDev = ENV !== 'production'
+
+function buildCss(use) {
+  if (!isDev) {
+      return [
+          MiniCssExtractPlugin.loader,
+          ...use
+      ]
+  }
+  return [
+      {
+          loader: "style-loader"
+      },
+      ...use
+  ]
+}
 
 const cssLoader = [{
   loader: 'css-loader'
@@ -13,9 +28,7 @@ const cssLoader = [{
   options: {
     sourceMap: true,
     plugins: [
-      autoprefixer({
-        browsers: ['last 2 versions']
-      })
+      autoprefixer()
     ]
   }
 }]
@@ -31,12 +44,14 @@ const plugins = [
 ]
 
 module.exports = {
-  context: path.resolve(__dirname, 'src'),
-  entry: './index.js',
+  context: path.resolve(__dirname, '.'),
+  entry: {
+    gitalk: './src/index.js'
+  },
 
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: '/dist',
+    path: path.resolve(__dirname, './docs/dist'),
+    publicPath: './dist',
     filename: 'gitalk.js',
     libraryTarget: 'umd',
     library: 'Gitalk'
@@ -59,17 +74,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: isDev ? ['style-loader'].concat(cssLoader) : ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: cssLoader
-        })
+        use: buildCss(cssLoader)
       },
       {
         test: /\.styl$/,
-        use: isDev ? ['style-loader'].concat(cssLoader, stylLoader) : ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: cssLoader.concat(stylLoader)
-        })
+        use: buildCss([...cssLoader, stylLoader])
       },
       {
         test: /\.(svg|woff2?|ttf|eot|jpe?g|png|gif)(\?.*)?$/i,
@@ -82,10 +91,10 @@ module.exports = {
       }
     ]
   },
-  plugins: isDev ? [...plugins, new webpack.NoEmitOnErrorsPlugin()] : [...plugins, new ExtractTextPlugin('gitalk.css')],
+  plugins: isDev ? [...plugins, new webpack.NoEmitOnErrorsPlugin()] : [...plugins, new MiniCssExtractPlugin({ filename: 'gitalk.css' })],
 
   devtool: isDev ? 'cheap-module-source-map' : 'source-map',
-
+  mode: 'development',
   devServer: {
     port: process.env.PORT || 8000,
     host: 'localhost',

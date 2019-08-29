@@ -35,9 +35,8 @@ describe('Button', function () {
     expect(onMouseDown.calledOnce).toBe(true)
   })
   it('set props getRef', function () {
-    let ref = null
-    const getRef = e => { ref = e }
-    const wrapper = mount(<Button getRef={getRef} />)
+    const ref = React.createRef()
+    const wrapper = mount(<Button getRef={ref} />)
     wrapper.find('button').simulate('mouseDown')
     expect(ref).not.toBe(null)
   })

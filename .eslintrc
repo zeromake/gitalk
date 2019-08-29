@@ -1,7 +1,11 @@
 {
   "root": true,
   "parser": "babel-eslint",
-  "extends": "o2team",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "o2team"
+  ],
   "plugins": [
     "react"
   ],
@@ -18,6 +22,9 @@
     }
   },
   "settings": {
+    "react": {
+      "version": "16.0"
+    }
     // "react": {
     //   "pragma": "h"
     // }

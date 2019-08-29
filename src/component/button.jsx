@@ -9,7 +9,7 @@ export default ({
   isLoading
 }) => (
   <button
-    ref={el => getRef && getRef(el)}
+    ref={getRef}
     className={`gt-btn ${className}`}
     onClick={onClick}
     onMouseDown={onMouseDown}>

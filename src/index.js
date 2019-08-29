@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import 'es6-promise/auto'
 import GitalkComponent from './gitalk'
 
-class Gitalk {
+export default class Gitalk {
   constructor (options = {}) {
     this.options = options
   }
@@ -28,5 +28,3 @@ class Gitalk {
     return render(<GitalkComponent options={this.options}/>, node, callback)
   }
 }
-
-module.exports = Gitalk

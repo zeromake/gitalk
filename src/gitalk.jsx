@@ -752,4 +752,4 @@ class GitalkComponent extends Component {
   }
 }
 
-module.exports = GitalkComponent
+export default GitalkComponent
