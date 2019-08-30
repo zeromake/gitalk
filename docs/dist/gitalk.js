@@ -12186,6 +12186,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           href: comment.html_url,
           className: "gt-comment-edit",
           title: "Edit",
+          rel: "noopener noreferrer",
           target: "_blank"
         }, _react.default.createElement(_svg.default, {
           className: "gt-ico-edit",
@@ -13233,7 +13234,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           className: "gt-counts",
           dangerouslySetInnerHTML: {
             __html: this.i18n.t('counts', {
-              counts: "<a class=\"gt-link gt-link-counts\" href=\"".concat(issue && issue.html_url, "\" target=\"_blank\">").concat(cnt, "</a>"),
+              counts: "<a class=\"gt-link gt-link-counts\" rel=\"noopener noreferrer\" href=\"".concat(issue && issue.html_url, "\" target=\"_blank\">").concat(cnt, "</a>"),
               smart_count: cnt
             })
           }
