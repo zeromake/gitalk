@@ -50,7 +50,7 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, './docs/dist'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: './dist',
     filename: 'gitalk.js',
     libraryTarget: 'umd',

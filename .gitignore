@@ -11,3 +11,5 @@ dev/config.js
 yarn.lock
 
 coverage
+
+/dist

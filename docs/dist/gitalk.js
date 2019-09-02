@@ -12290,7 +12290,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   _exports.GT_COMMENT = _exports.GT_VERSION = _exports.GT_ACCESS_TOKEN = void 0;
   var GT_ACCESS_TOKEN = 'GT_ACCESS_TOKEN';
   _exports.GT_ACCESS_TOKEN = GT_ACCESS_TOKEN;
-  var GT_VERSION = "1.5.1"; // eslint-disable-line
+  var GT_VERSION = "1.5.2"; // eslint-disable-line
 
   _exports.GT_VERSION = GT_VERSION;
   var GT_COMMENT = 'GT_COMMENT';

@@ -1,6 +1,6 @@
 {
   "name": "@zeromake/gitalk",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A comment plugin base on GitHub issues",
   "keywords": [
     "comment",
@@ -8,7 +8,7 @@
     "lib",
     "GitHub"
   ],
-  "main": "docs/dist/gitalk.js",
+  "main": "dist/gitalk.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --no-info --progress",
@@ -16,7 +16,8 @@
     "build:umd": "cross-env MODULE=umd NODE_ENV=production webpack --hide-modules --config webpack.config.js",
     "build:comp": "cross-env NODE_ENV=production webpack --config webpack.config.comp.js",
     "build:min": "cross-env NODE_ENV=production webpack --config webpack.config.min.js",
-    "clean": "rimraf ./docs/dist",
+    "clean": "rimraf ./docs/dist ./dist",
+    "cp": "cp -R ./dist ./docs/",
     "lint": "eslint src",
     "coverage": "jest --coverage",
     "test": "jest"
@@ -94,5 +95,12 @@
   },
   "browserslist": [
     "last 3 versions"
+  ],
+  "files": [
+    "package.json",
+    "LICENSE",
+    ".editorconfig",
+    "src",
+    "dist"
   ]
 }
