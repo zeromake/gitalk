@@ -16,15 +16,17 @@ import 'github-markdown-css/github-markdown.css'
 // const FR = buildDistanceInWordsLocaleFR()
 // const RU = buildDistanceInWordsLocaleRU()
 
+const I18nDistanceInWordsLocaleMap = {
+  zh: ZHCN,
+  'zh-CN': ZHCN,
+  'zh-TW': ZHTW,
+  'es-ES': ES,
+  fr: FR,
+  ru: RU
+}
+
 if (typeof window !== `undefined`) {
-  window.GT_i18n_distanceInWordsLocaleMap = {
-    zh: ZHCN,
-    'zh-CN': ZHCN,
-    'zh-TW': ZHTW,
-    'es-ES': ES,
-    fr: FR,
-    ru: RU
-  }
+  window.GT_i18n_distanceInWordsLocaleMap = I18nDistanceInWordsLocaleMap
 }
 
 
@@ -57,8 +59,8 @@ export default class Comment extends Component {
         reactionTotalCount = '100+'
       }
     }
-    const LocaleMap = window.GT_i18n_distanceInWordsLocaleMap;
-    const formatDistance = (language && LocaleMap) && LocaleMap[language];
+    const LocaleMap = I18nDistanceInWordsLocaleMap
+    const formatDistance = (language && LocaleMap) && LocaleMap[language]
 
     return (
       <div className={`gt-comment ${isAdmin ? 'gt-comment-admin' : ''}`}>

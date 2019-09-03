@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const queryParse = (search = window.location.search) => {
+export function queryParse (search = window.location.search) {
   if (!search) return {}
   const queryString = search[0] === '?' ? search.substring(1) : search
   const query = {}
@@ -15,7 +15,7 @@ export const queryParse = (search = window.location.search) => {
   return query
 }
 
-export const queryStringify = query => {
+export function queryStringify (query) {
   const queryString = Object.keys(query)
     .map(key => `${key}=${encodeURIComponent(query[key] || '')}`)
     .join('&')
@@ -35,7 +35,7 @@ export const axiosGithub = axios.create({
   }
 })
 
-export const getMetaContent = (name, content) => {
+export function getMetaContent (name, content) {
   /* istanbul ignore next */
   content || (content = 'content')
   /* istanbul ignore next */
@@ -44,7 +44,7 @@ export const getMetaContent = (name, content) => {
   return el && el.getAttribute(content)
 }
 
-export const formatErrorMsg = err => {
+export function formatErrorMsg (err) {
   let msg = 'Error: '
   if (err.response && err.response.data && err.response.data.message) {
     msg += `${err.response.data.message}. `
@@ -55,7 +55,7 @@ export const formatErrorMsg = err => {
   return msg
 }
 
-export const hasClassInParent = (element, ...className) => {
+export function hasClassInParent (element, ...className) {
   /* istanbul ignore next */
   let yes = false
   /* istanbul ignore next */
