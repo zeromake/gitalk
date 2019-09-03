@@ -3,13 +3,9 @@
 
 .vscode
 
-npm-debug.log
-node_modules
-package-lock.json
+*.log
+/node_modules
 
-dev/config.js
-yarn.lock
-
-coverage
+/coverage
 
 /dist
