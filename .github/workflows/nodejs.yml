@@ -23,6 +23,5 @@ jobs:
         yarn install
         yarn build
         yarn coverage
-        cat ./coverage/lcov.info | ./node_modules/.bin/coveralls
       env:
         CI: true
