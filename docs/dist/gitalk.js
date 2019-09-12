@@ -6755,67 +6755,68 @@ var russianPluralGroups = function (n) {
   return 2;
 };
 
-// Mapping from pluralization group plural logic.
-var pluralTypes = {
-  arabic: function (n) {
-    // http://www.arabeyes.org/Plural_Forms
-    if (n < 3) { return n; }
-    var lastTwo = n % 100;
-    if (lastTwo >= 3 && lastTwo <= 10) return 3;
-    return lastTwo >= 11 ? 4 : 5;
-  },
-  bosnian_serbian: russianPluralGroups,
-  chinese: function () { return 0; },
-  croatian: russianPluralGroups,
-  french: function (n) { return n > 1 ? 1 : 0; },
-  german: function (n) { return n !== 1 ? 1 : 0; },
-  russian: russianPluralGroups,
-  lithuanian: function (n) {
-    if (n % 10 === 1 && n % 100 !== 11) { return 0; }
-    return n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19) ? 1 : 2;
-  },
-  czech: function (n) {
-    if (n === 1) { return 0; }
-    return (n >= 2 && n <= 4) ? 1 : 2;
-  },
-  polish: function (n) {
-    if (n === 1) { return 0; }
-    var end = n % 10;
-    return 2 <= end && end <= 4 && (n % 100 < 10 || n % 100 >= 20) ? 1 : 2;
-  },
-  icelandic: function (n) { return (n % 10 !== 1 || n % 100 === 11) ? 1 : 0; },
-  slovenian: function (n) {
-    var lastTwo = n % 100;
-    if (lastTwo === 1) {
-      return 0;
+var defaultPluralRules = {
+  // Mapping from pluralization group plural logic.
+  pluralTypes: {
+    arabic: function (n) {
+      // http://www.arabeyes.org/Plural_Forms
+      if (n < 3) { return n; }
+      var lastTwo = n % 100;
+      if (lastTwo >= 3 && lastTwo <= 10) return 3;
+      return lastTwo >= 11 ? 4 : 5;
+    },
+    bosnian_serbian: russianPluralGroups,
+    chinese: function () { return 0; },
+    croatian: russianPluralGroups,
+    french: function (n) { return n > 1 ? 1 : 0; },
+    german: function (n) { return n !== 1 ? 1 : 0; },
+    russian: russianPluralGroups,
+    lithuanian: function (n) {
+      if (n % 10 === 1 && n % 100 !== 11) { return 0; }
+      return n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19) ? 1 : 2;
+    },
+    czech: function (n) {
+      if (n === 1) { return 0; }
+      return (n >= 2 && n <= 4) ? 1 : 2;
+    },
+    polish: function (n) {
+      if (n === 1) { return 0; }
+      var end = n % 10;
+      return 2 <= end && end <= 4 && (n % 100 < 10 || n % 100 >= 20) ? 1 : 2;
+    },
+    icelandic: function (n) { return (n % 10 !== 1 || n % 100 === 11) ? 1 : 0; },
+    slovenian: function (n) {
+      var lastTwo = n % 100;
+      if (lastTwo === 1) {
+        return 0;
+      }
+      if (lastTwo === 2) {
+        return 1;
+      }
+      if (lastTwo === 3 || lastTwo === 4) {
+        return 2;
+      }
+      return 3;
     }
-    if (lastTwo === 2) {
-      return 1;
-    }
-    if (lastTwo === 3 || lastTwo === 4) {
-      return 2;
-    }
-    return 3;
+  },
+
+  // Mapping from pluralization group to individual language codes/locales.
+  // Will look up based on exact match, if not found and it's a locale will parse the locale
+  // for language code, and if that does not exist will default to 'en'
+  pluralTypeToLanguages: {
+    arabic: ['ar'],
+    bosnian_serbian: ['bs-Latn-BA', 'bs-Cyrl-BA', 'srl-RS', 'sr-RS'],
+    chinese: ['id', 'id-ID', 'ja', 'ko', 'ko-KR', 'lo', 'ms', 'th', 'th-TH', 'zh'],
+    croatian: ['hr', 'hr-HR'],
+    german: ['fa', 'da', 'de', 'en', 'es', 'fi', 'el', 'he', 'hi-IN', 'hu', 'hu-HU', 'it', 'nl', 'no', 'pt', 'sv', 'tr'],
+    french: ['fr', 'tl', 'pt-br'],
+    russian: ['ru', 'ru-RU'],
+    lithuanian: ['lt'],
+    czech: ['cs', 'cs-CZ', 'sk'],
+    polish: ['pl'],
+    icelandic: ['is'],
+    slovenian: ['sl-SL']
   }
-};
-
-
-// Mapping from pluralization group to individual language codes/locales.
-// Will look up based on exact match, if not found and it's a locale will parse the locale
-// for language code, and if that does not exist will default to 'en'
-var pluralTypeToLanguages = {
-  arabic: ['ar'],
-  bosnian_serbian: ['bs-Latn-BA', 'bs-Cyrl-BA', 'srl-RS', 'sr-RS'],
-  chinese: ['id', 'id-ID', 'ja', 'ko', 'ko-KR', 'lo', 'ms', 'th', 'th-TH', 'zh'],
-  croatian: ['hr', 'hr-HR'],
-  german: ['fa', 'da', 'de', 'en', 'es', 'fi', 'el', 'he', 'hi-IN', 'hu', 'hu-HU', 'it', 'nl', 'no', 'pt', 'sv', 'tr'],
-  french: ['fr', 'tl', 'pt-br'],
-  russian: ['ru', 'ru-RU'],
-  lithuanian: ['lt'],
-  czech: ['cs', 'cs-CZ', 'sk'],
-  polish: ['pl'],
-  icelandic: ['is'],
-  slovenian: ['sl-SL']
 };
 
 function langToTypeMap(mapping) {
@@ -6828,15 +6829,15 @@ function langToTypeMap(mapping) {
   return ret;
 }
 
-function pluralTypeName(locale) {
-  var langToPluralType = langToTypeMap(pluralTypeToLanguages);
+function pluralTypeName(pluralRules, locale) {
+  var langToPluralType = langToTypeMap(pluralRules.pluralTypeToLanguages);
   return langToPluralType[locale]
     || langToPluralType[split.call(locale, /-/, 1)[0]]
     || langToPluralType.en;
 }
 
-function pluralTypeIndex(locale, count) {
-  return pluralTypes[pluralTypeName(locale)](count);
+function pluralTypeIndex(pluralRules, locale, count) {
+  return pluralRules.pluralTypes[pluralTypeName(pluralRules, locale)](count);
 }
 
 function escape(token) {
@@ -6879,7 +6880,7 @@ var defaultTokenRegex = /%\{(.*?)\}/g;
 //
 // You should pass in a third argument, the locale, to specify the correct plural type.
 // It defaults to `'en'` with 2 plural forms.
-function transformPhrase(phrase, substitutions, locale, tokenRegex) {
+function transformPhrase(phrase, substitutions, locale, tokenRegex, pluralRules) {
   if (typeof phrase !== 'string') {
     throw new TypeError('Polyglot.transformPhrase expects argument #1 to be string');
   }
@@ -6890,6 +6891,7 @@ function transformPhrase(phrase, substitutions, locale, tokenRegex) {
 
   var result = phrase;
   var interpolationRegex = tokenRegex || defaultTokenRegex;
+  var pluralRulesOrDefault = pluralRules || defaultPluralRules;
 
   // allow number as a pluralization shortcut
   var options = typeof substitutions === 'number' ? { smart_count: substitutions } : substitutions;
@@ -6899,7 +6901,7 @@ function transformPhrase(phrase, substitutions, locale, tokenRegex) {
   // choose the correct plural form. This is only done if `count` is set.
   if (options.smart_count != null && result) {
     var texts = split.call(result, delimiter);
-    result = trim(texts[pluralTypeIndex(locale || 'en', options.smart_count)] || texts[0]);
+    result = trim(texts[pluralTypeIndex(pluralRulesOrDefault, locale || 'en', options.smart_count)] || texts[0]);
   }
 
   // Interpolate: Creates a `RegExp` object for each interpolation placeholder.
@@ -6921,6 +6923,7 @@ function Polyglot(options) {
   this.onMissingKey = typeof opts.onMissingKey === 'function' ? opts.onMissingKey : allowMissing;
   this.warn = opts.warn || warn;
   this.tokenRegex = constructTokenRegex(opts.interpolation);
+  this.pluralRules = opts.pluralRules || defaultPluralRules;
 }
 
 // ### polyglot.locale([locale])
@@ -7071,13 +7074,13 @@ Polyglot.prototype.t = function (key, options) {
     phrase = opts._;
   } else if (this.onMissingKey) {
     var onMissingKey = this.onMissingKey;
-    result = onMissingKey(key, opts, this.currentLocale, this.tokenRegex);
+    result = onMissingKey(key, opts, this.currentLocale, this.tokenRegex, this.pluralRules);
   } else {
     this.warn('Missing translation for key: "' + key + '"');
     result = key;
   }
   if (typeof phrase === 'string') {
-    result = transformPhrase(phrase, opts, this.currentLocale, this.tokenRegex);
+    result = transformPhrase(phrase, opts, this.currentLocale, this.tokenRegex, this.pluralRules);
   }
   return result;
 };
@@ -12069,7 +12072,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+  function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
   function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -12094,15 +12099,17 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   // const ES = buildDistanceInWordsLocaleES()
   // const FR = buildDistanceInWordsLocaleFR()
   // const RU = buildDistanceInWordsLocaleRU()
+  var I18nDistanceInWordsLocaleMap = {
+    zh: _index.default,
+    'zh-CN': _index.default,
+    'zh-TW': _index2.default,
+    'es-ES': _index3.default,
+    fr: _index4.default,
+    ru: _index5.default
+  };
+
   if (typeof window !== "undefined") {
-    window.GT_i18n_distanceInWordsLocaleMap = {
-      zh: _index.default,
-      'zh-CN': _index.default,
-      'zh-TW': _index2.default,
-      'es-ES': _index3.default,
-      fr: _index4.default,
-      ru: _index5.default
-    };
+    window.GT_i18n_distanceInWordsLocaleMap = I18nDistanceInWordsLocaleMap;
   }
 
   var Comment =
@@ -12144,7 +12151,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           }
         }
 
-        var LocaleMap = window.GT_i18n_distanceInWordsLocaleMap;
+        var LocaleMap = I18nDistanceInWordsLocaleMap;
         var formatDistance = language && LocaleMap && LocaleMap[language];
         return _react.default.createElement("div", {
           className: "gt-comment ".concat(isAdmin ? 'gt-comment-admin' : '')
@@ -12333,7 +12340,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+  function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
   function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -13676,7 +13685,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   Object.defineProperty(_exports, "__esModule", {
     value: true
   });
-  _exports.hasClassInParent = _exports.formatErrorMsg = _exports.getMetaContent = _exports.axiosGithub = _exports.axiosJSON = _exports.queryStringify = _exports.queryParse = void 0;
+  _exports.queryParse = queryParse;
+  _exports.queryStringify = queryStringify;
+  _exports.getMetaContent = getMetaContent;
+  _exports.formatErrorMsg = formatErrorMsg;
+  _exports.hasClassInParent = hasClassInParent;
+  _exports.axiosGithub = _exports.axiosJSON = void 0;
   _axios = _interopRequireDefault(_axios);
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -13685,11 +13699,11 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
   function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
 
-  function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+  function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
   function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-  var queryParse = function queryParse() {
+  function queryParse() {
     var search = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.search;
     if (!search) return {};
     var queryString = search[0] === '?' ? search.substring(1) : search;
@@ -13705,18 +13719,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
       if (key) query[decodeURIComponent(key)] = decodeURIComponent(value);
     });
     return query;
-  };
+  }
 
-  _exports.queryParse = queryParse;
-
-  var queryStringify = function queryStringify(query) {
+  function queryStringify(query) {
     var queryString = Object.keys(query).map(function (key) {
       return "".concat(key, "=").concat(encodeURIComponent(query[key] || ''));
     }).join('&');
     return queryString;
-  };
-
-  _exports.queryStringify = queryStringify;
+  }
 
   var axiosJSON = _axios.default.create({
     headers: {
@@ -13735,7 +13745,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
   _exports.axiosGithub = axiosGithub;
 
-  var getMetaContent = function getMetaContent(name, content) {
+  function getMetaContent(name, content) {
     /* istanbul ignore next */
     content || (content = 'content');
     /* istanbul ignore next */
@@ -13744,11 +13754,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     /* istanbul ignore next */
 
     return el && el.getAttribute(content);
-  };
+  }
 
-  _exports.getMetaContent = getMetaContent;
-
-  var formatErrorMsg = function formatErrorMsg(err) {
+  function formatErrorMsg(err) {
     var msg = 'Error: ';
 
     if (err.response && err.response.data && err.response.data.message) {
@@ -13761,11 +13769,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     }
 
     return msg;
-  };
+  }
 
-  _exports.formatErrorMsg = formatErrorMsg;
-
-  var hasClassInParent = function hasClassInParent(element) {
+  function hasClassInParent(element) {
     /* istanbul ignore next */
     var yes = false;
     /* istanbul ignore next */
@@ -13790,9 +13796,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     /* istanbul ignore next */
 
     return element.parentNode && hasClassInParent(element.parentNode, className);
-  };
-
-  _exports.hasClassInParent = hasClassInParent;
+  }
 });
 
 /***/ })
