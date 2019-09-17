@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const autoprefixer = require('autoprefixer')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 const ENV = process.env.NODE_ENV || 'development'
 const isDev = ENV !== 'production'
@@ -41,8 +41,8 @@ const stylLoader = {
 const plugins = [
   new webpack.DefinePlugin({
     VERSION: JSON.stringify(require('./package.json').version)
-  }),
-  new BundleAnalyzerPlugin()
+  })
+  // new BundleAnalyzerPlugin()
 ]
 
 module.exports = {
