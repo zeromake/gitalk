@@ -22,5 +22,14 @@ describe('Avatar', function () {
       .find('img').prop('alt')
     ).toEqual(`@${alt}`)
   })
+  it('set props defaultSrc', function () {
+    expect(shallow(<Avatar />)
+      .find('img').prop('src')
+    ).toMatch('github')
+
+    expect(shallow(<Avatar defaultSrc='default'/>)
+      .find('img').prop('src')
+    ).not.toMatch('github')
+  })
 })
 

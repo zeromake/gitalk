@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const ENV = process.env.NODE_ENV || 'development'
 const isDev = ENV !== 'production'
 
-function buildCss (use) {
+function buildCss(use) {
   if (!isDev) {
     return [
       MiniCssExtractPlugin.loader,
@@ -27,10 +27,13 @@ const cssLoader = [{
 }, {
   loader: 'postcss-loader',
   options: {
-    sourceMap: true,
-    plugins: [
-      autoprefixer()
-    ]
+    postcssOptions: {
+      plugins: [
+        [
+          autoprefixer()
+        ],
+      ],
+    }
   }
 }]
 
@@ -98,7 +101,7 @@ module.exports = {
   devtool: isDev ? 'cheap-module-source-map' : 'source-map',
   mode: 'development',
   devServer: {
-    port: process.env.PORT || 8000,
+    port: process.env.PORT || 8010,
     host: 'localhost',
     // publicPath: '/dist',
     contentBase: './dev',

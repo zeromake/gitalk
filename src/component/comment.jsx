@@ -31,6 +31,25 @@ if (typeof window !== `undefined`) {
 
 
 export default class Comment extends Component {
+  ref = React.createRef()
+  shouldComponentUpdate () {
+    return false
+  }
+
+  componentDidMount () {
+    const comment = this.ref.current
+    if (comment) {
+      const emailResponse = comment.querySelector('.email-hidden-toggle>a')
+      if (emailResponse) {
+        emailResponse.addEventListener('click', e => {
+          e.preventDefault()
+          comment.querySelector('.email-hidden-reply').classList.toggle('expanded')
+        }, true)
+      }
+    }
+
+  }
+
   render () {
     const {
       comment,
@@ -63,7 +82,7 @@ export default class Comment extends Component {
     const formatDistance = (language && LocaleMap) && LocaleMap[language]
 
     return (
-      <div className={`gt-comment ${isAdmin ? 'gt-comment-admin' : ''}`}>
+      <div ref={this.ref} className={`gt-comment ${isAdmin ? 'gt-comment-admin' : ''}`}>
         <Avatar
           className="gt-comment-avatar"
           src={comment.user && comment.user.avatar_url}

@@ -16,9 +16,8 @@ export default function Button ({
       onMouseDown={onMouseDown}>
       <span className="gt-btn-text">{text}</span>
       {
-        isLoading && <span className="gt-btn-loading gt-spinner"/>
+        isLoading && <span className="gt-btn-loading gt-spinner" />
       }
     </button>
   )
 }
-

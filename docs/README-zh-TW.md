@@ -1,14 +1,20 @@
 
 # Gitalk
 
-[![NPM][npm-version-image]][npm-version-url] [![CDNJS][cdnjs-version-image]][cdnjs-version-url] [![david-dm][david-dm-image]][david-dm-url] [![travis][travis-image]][travis-url] [![coveralls][coveralls-image]][coveralls-url] [![gzip][gzip-size]][gzip-url]
+[![NPM][npm-version-image]][npm-version-url] 
+[![CDNJS][cdnjs-version-image]][cdnjs-version-url] 
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/gitalk/badge)](https://www.jsdelivr.com/package/npm/gitalk)
+[![david-dm][david-dm-image]][david-dm-url] 
+[![travis][travis-image]][travis-url] 
+[![coveralls][coveralls-image]][coveralls-url] 
+[![gzip-size][gzip-size]][gzip-url]
 
 Gitalk 是一個基於 GitHub Issue 和 Preact 開發的評論插件。
 
 ## 特性
 
 - 使用 GitHub 登錄
-- 支持多語言 [en, zh-CN, zh-TW, es-ES, fr, ru]
+- 支持多語言 [en, zh-CN, zh-TW, es-ES, fr, ru, de, pl, ko]
 - 支持個人或組織
 - 無干擾模式（設置 distractionFreeMode 為 true 開啟）
 - 快捷鍵提交評論 （cmd|ctrl + enter）
@@ -70,6 +76,24 @@ gitalk.render('gitalk-container')
 
 需要 **GitHub Application**，如果沒有 [點擊這裡申請](https://github.com/settings/applications/new)，`Authorization callback URL` 填寫當前使用插件頁面的域名。
 
+### 在React使用
+
+使用以下代碼引入Gitalk組件
+
+```jsx
+import GitalkComponent from "gitalk/dist/gitalk-component";
+```
+
+按以下方式在React中使用Gitalk組件
+
+```jsx
+<GitalkComponent options={{
+  clientID: "...",
+  // ...
+  // 設置項
+}} />
+```
+
 ## 設置
 
 - **clientID** `String`
@@ -126,7 +150,7 @@ gitalk.render('gitalk-container')
 
   Default: `navigator.language || navigator.userLanguage`.
 
-  設置語言，支持 [en, zh-CN, zh-TW]。
+  設置語言，支持 [en, zh-CN, zh-TW, es-ES, fr, ru, de, pl, ko]。
 
 - **perPage** `Number`
 
@@ -184,6 +208,10 @@ gitalk.render('gitalk-container')
 - **render(String/HTMLElement)**
 
   初始化渲染並掛載插件。
+
+## TypeScript
+
+已經包括了配置項和Gitalk類的類型定義，不包括React組件的類型定義。
 
 ## 貢獻
 
