@@ -169,7 +169,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 			// Using offsetHeight as a replacement for computed.height in IE, because IE does not account use of border-box
 			var actualHeight = computed.boxSizing === 'content-box' ? Math.round(parseFloat(computed.height)) : ta.offsetHeight;
 
-			// The actual height not matching the style height (set via the resize method) indicates that
+			// The actual height not matching the style height (set via the resize method) indicates that 
 			// the max-height has been exceeded, in which case the overflow should be allowed.
 			if (actualHeight < styleHeight) {
 				if (computed.overflowY === 'hidden') {
@@ -8130,9 +8130,9 @@ var Promise$1 = function () {
   /**
     `finally` will be invoked regardless of the promise's fate just as native
     try/catch/finally behaves
-
+  
     Synchronous example:
-
+  
     ```js
     findAuthor() {
       if (Math.random() > 0.5) {
@@ -8140,7 +8140,7 @@ var Promise$1 = function () {
       }
       return new Author();
     }
-
+  
     try {
       return findAuthor(); // succeed or fail
     } catch(error) {
@@ -8150,9 +8150,9 @@ var Promise$1 = function () {
       // doesn't affect the return value
     }
     ```
-
+  
     Asynchronous example:
-
+  
     ```js
     findAuthor().catch(function(reason){
       return findOtherAuther();
@@ -8160,7 +8160,7 @@ var Promise$1 = function () {
       // author was either found, or not
     });
     ```
-
+  
     @method finally
     @param {Function} callback
     @return {Promise}
@@ -11527,7 +11527,7 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/
+/******/ 	
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -11540,14 +11540,14 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/
+/******/ 	
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
+/******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
@@ -11560,7 +11560,7 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /******/ 			}
 /******/ 		};
 /******/ 	}();
-/******/
+/******/ 	
 /******/ 	/* webpack/runtime/global */
 /******/ 	!function() {
 /******/ 		__webpack_require__.g = (function() {
@@ -11572,12 +11572,12 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /******/ 			}
 /******/ 		})();
 /******/ 	}();
-/******/
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	!function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
 /******/ 	}();
-/******/
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	!function() {
 /******/ 		// define __esModule on exports
@@ -11588,7 +11588,7 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
 /******/ 	}();
-/******/
+/******/ 	
 /************************************************************************/
 /******/ 	// module exports must be returned from runtime so entry inlining is disabled
 /******/ 	// startup
@@ -11597,3 +11597,4 @@ module.exports = JSON.parse("{\"init\":\"Gitalk 載入中…\",\"no-found-relate
 /******/ })()
 ;
 });
+//# sourceMappingURL=gitalk.js.map
